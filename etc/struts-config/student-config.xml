@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+
+
+	<package name="default" namespace="/" extends="basePackage">
+		<default-action-ref name="index" />
+
+		<action name="user_*" method="{1}" class="edu.ucr.c3.phr.user.test">
+			<result name ="login">/index3.jsp</result>
+			<result name ="success">/index2.jsp</result>
+		</action>
+
+<!--		<action name="student_*" method="{1}"-->
+<!--			class="edu.ucr.c3.wms.controller.student.studentView">-->
+<!---->
+<!--			<result name="view">/index3.jsp</result>-->
+<!--			<result name="display_all_class">/student/student_make_reservation.jsp</result>-->
+<!--			<result name="reservation_view_login" type="redirectAction">viewlogin_input</result>-->
+<!--			<result name="display_student_reservations">/student/view_reservations.jsp-->
+<!--	</result>-->
+<!--			<result name="create_student">/student/newstudentForm.jsp</result>-->
+<!--			<result name="made_lab">/student/labForm.jsp</result>-->
+<!--			<result name="made_workshop">/student/workshopForm.jsp</result>-->
+<!--			<result name="save_workshop">/student/confirm.jsp</result>-->
+<!--			<result name="new_student">/student/newStudentForm.jsp</result>-->
+<!--			<result name="view_session">/student/view_session_info.jsp</result>-->
+<!--			<result name="view_section">/student/view_section_info.jsp</result>-->
+<!--			<result name="view_logged_in"></result>-->
+<!--			<result name="not_logged_on" type="redirectAction">viewlogin</result>-->
+<!--			<result name="error">/student/login_error.jsp</result>-->
+<!--			<result name="error2">/student/error.jsp</result>-->
+<!--			<result name="delete">/student/deleted.jsp</result>-->
+<!--			<result name="nothing_selected">/student/no_select.jsp</result>-->
+<!--			<result name="invalid_department">/student/invalid_department.jsp</result>-->
+<!--		</action>-->
+<!---->
+<!---->
+<!--		<action name="addworkshop_*" method="{1}"-->
+<!--			class="edu.ucr.c3.wms.controller.student.addeditWorkshop">-->
+<!--			<result name="made_workshop">/student/workshopForm.jsp</result>-->
+<!--			<result name="save_workshop">/student/confirm.jsp</result>-->
+<!--			<result name="input">/student/workshopForm.jsp</result>-->
+<!--			<result name="delete">/student/deleted.jsp</result>-->
+<!--			<result name="already_registered">/student/register_error.jsp</result>-->
+<!--			<result name="new_student" type="redirectAction">addstudent_input</result>-->
+<!--			<result name="logged_in_view" type="redirectAction">get_reservations</result>-->
+<!--			<result name="delete_error">student/delete_error.jsp</result>-->
+<!--			<result name="diff_user">student/reg_login_error.jsp</result>-->
+<!--		</action>-->
+<!--		<action name="addlab_*" method="{1}"-->
+<!--			class="edu.ucr.c3.wms.controller.student.addeditLab">-->
+<!--			<result name="made_lab">/student/labForm.jsp</result>-->
+<!--			<result name="save_workshop">/student/confirm.jsp</result>-->
+<!--			<result name="input">/student/labForm.jsp</result>-->
+<!--			<result name="delete">/student/deleted.jsp</result>-->
+<!--			<result name="already_registered">/student/register_error.jsp</result>-->
+<!--			<result name="new_student" type="redirectAction">addstudent_input</result>-->
+<!--			<result name="logged_in_view" type="redirectAction">get_reservations</result>-->
+<!--			<result name="delete_error">student/delete_error.jsp</result>-->
+<!--			<result name="diff_user">student/reg_login_error.jsp</result>-->
+<!---->
+<!--		</action>-->
+<!--		<action name="addstudent_*" method="{1}"-->
+<!--			class="edu.ucr.c3.wms.controller.student.addeditStudent">-->
+<!--			<result name="save_student">/student/confirm_student.jsp</result>-->
+<!--			<result name="input">/student/newStudentForm.jsp</result>-->
+<!--			<result name="already_exists">/student/already_exist.jsp</result>-->
+<!--			<result name="success">/student/labForm.jsp</result>-->
+<!--			<result name="invalid sid" type="redirectAction">addstudent_input</result>-->
+<!--		</action>-->
+<!---->
+<!--		<action name="viewlogin_*" method="{1}"-->
+<!--			class="edu.ucr.c3.wms.controller.student.view_reservation_login">-->
+<!--			<result name="success">/student/student_view_reservations.jsp</result>-->
+<!--			<result name="input">/student/student_view_reservations.jsp</result>-->
+<!--			<result name="logged_in">/student/logged_in.jsp</result>-->
+<!--			<result name="new_student" type="redirectAction">addstudent_input</result>-->
+<!--		</action>-->
+	</package>
+</struts>
+

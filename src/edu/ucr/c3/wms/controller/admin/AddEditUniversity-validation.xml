@@ -1,0 +1,27 @@
+<!DOCTYPE validators PUBLIC
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+	<field name="name">
+        <field-validator type="requiredstring">
+            <message>${getText("name.label")} ${getText("required")}</message>
+        </field-validator>
+    </field> 
+    <field name="url">
+        <field-validator type="requiredstring">
+            <message>${getText("url.label")} ${getText("required")}</message>
+        </field-validator>
+    </field>
+    <field name="sidRule">
+        <field-validator type="requiredstring">
+            <message>${getText("sidRule.label")} ${getText("required")}</message>
+        </field-validator>
+        <field-validator type="regex">
+        	<param name="expression">
+        	<![CDATA[([xX0-9][xX0-9][xX0-9][xX0-9][xX0-9][xX0-9][xX0-9][xX0-9][xX0-9])]]>
+        	</param>
+            <message>SID Rule must be 9 digits and can only contain X's or digits</message>
+        </field-validator>
+    </field>
+</validators>

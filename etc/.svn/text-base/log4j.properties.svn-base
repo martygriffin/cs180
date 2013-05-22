@@ -1,0 +1,17 @@
+# Set root logger level to DEBUG and its only appender to A1.
+log4j.rootLogger=warn, A1
+log4j.logger.edu.ucr.c3=error
+log4j.logger.net.sf.hibernate.HQL=debug
+
+#log4j.logger.org.hibernate=all
+#log4j.logger.org.springframework=all
+#log4j.logger.org.apache.struts2=all
+#log4j.logger.com.opensymphony.xwork2=all
+log4j.logger.ognl=all
+
+# A1 is set to be a ConsoleAppender.
+log4j.appender.A1=org.apache.log4j.ConsoleAppender
+
+# A1 uses PatternLayout.
+log4j.appender.A1.layout=org.apache.log4j.PatternLayout
+log4j.appender.A1.layout.ConversionPattern=%d{ISO8601} [%t] %-5p %c %x - %m%n

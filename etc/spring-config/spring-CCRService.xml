@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="CcrSvcTarget" class="edu.ucr.c3.business.ccr.imp.CCRServiceImp">
+		<property name="menuDAO"><ref bean="MenuDAO"/></property>
+		<property name="orderDAO"><ref bean="OrderDAO"/></property>
+		<property name="userDAO"><ref bean="UserDAO"/></property>
+		<property name="reservationDAO"><ref bean="ReservationDAO"/></property>
+		<property name="itemDAO"><ref bean="ItemDAO"/></property>
+		<property name="socialDAO"><ref bean="SocialDAO"/></property>
+		<property name="logDAO"><ref bean="LogDAO"/></property>
+		<property name="menuItemDAO"><ref bean="MenuItemDAO"/></property>
+		<property name="couponDAO"><ref bean="CouponDAO"/></property>
+		<property name="feedbackDAO"><ref bean="FeedbackDAO"/></property>
+	</bean>
+	
+
+	
+</beans>

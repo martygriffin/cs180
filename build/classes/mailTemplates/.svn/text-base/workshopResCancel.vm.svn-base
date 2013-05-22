@@ -1,0 +1,3 @@
+Dear $student,
+Your reservation for the $session session of the $workshop workshop has been canceled.
+Reason: $reason.

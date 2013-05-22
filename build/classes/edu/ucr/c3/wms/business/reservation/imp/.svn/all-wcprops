@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/business/reservation/imp
+END
+LookupServiceImp.class
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/business/reservation/imp/LookupServiceImp.class
+END
+WorkshopServiceImp.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/business/reservation/imp/WorkshopServiceImp.class
+END
+LabclassServiceImp.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/business/reservation/imp/LabclassServiceImp.class
+END

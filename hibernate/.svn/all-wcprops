@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate
+END
+AgreementDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/AgreementDAO.java
+END
+ManagerDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/ManagerDAO.java
+END
+CollegeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/CollegeDAO.java
+END
+WorkshopDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/WorkshopDAO.java
+END
+WeeklyScheduleDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/WeeklyScheduleDAO.java
+END
+WorkshopLogDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/WorkshopLogDAO.java
+END
+AcademicTermDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/AcademicTermDAO.java
+END
+AdminLoginDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/AdminLoginDAO.java
+END
+UniversityDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/UniversityDAO.java
+END
+AppTypeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/AppTypeDAO.java
+END
+SystemSettingDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/SystemSettingDAO.java
+END
+SessionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/SessionDAO.java
+END
+LabclassDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/LabclassDAO.java
+END
+LabclassLogDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/LabclassLogDAO.java
+END
+StudentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/StudentDAO.java
+END
+AdminDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/AdminDAO.java
+END
+SystemVersionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/SystemVersionDAO.java
+END
+WorkshopReservationRecordDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/WorkshopReservationRecordDAO.java
+END
+ManagerAppRoleDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/ManagerAppRoleDAO.java
+END
+WorkshopReservationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/WorkshopReservationDAO.java
+END
+ManagerLoginDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/ManagerLoginDAO.java
+END
+DeptAgreeRelDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/DeptAgreeRelDAO.java
+END
+DepartmentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/DepartmentDAO.java
+END
+SectionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/SectionDAO.java
+END
+LabclassReservationRecordDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/LabclassReservationRecordDAO.java
+END
+DeptAdminDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/DeptAdminDAO.java
+END
+ReservationStatusDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/ReservationStatusDAO.java
+END
+LabclassReservationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/micromarty_cs180/!svn/ver/2/phr23/hibernate/LabclassReservationDAO.java
+END

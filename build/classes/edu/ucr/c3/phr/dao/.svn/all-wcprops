@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao
+END
+ActorsDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/ActorsDAO.class
+END
+DicomDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/DicomDAO.class
+END
+ProblemDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/ProblemDAO.class
+END
+ResultsDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/ResultsDAO.class
+END
+VitalsDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/VitalsDAO.class
+END
+FilesDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/FilesDAO.class
+END
+DepartmentDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/DepartmentDAO.class
+END
+CodingSystemDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/CodingSystemDAO.class
+END
+LoginDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/LoginDAO.class
+END
+ProceduresDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/ProceduresDAO.class
+END
+MedicationDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/MedicationDAO.class
+END
+SimpleClinicalNoteDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/SimpleClinicalNoteDAO.class
+END
+ModalityDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/ModalityDAO.class
+END
+AllergysDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/AllergysDAO.class
+END
+ImmunizationDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/ImmunizationDAO.class
+END
+HospitalDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/HospitalDAO.class
+END
+MeasurementDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/MeasurementDAO.class
+END
+InsuranceDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/InsuranceDAO.class
+END
+PhysicianDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/PhysicianDAO.class
+END
+NotesDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/NotesDAO.class
+END
+CodingSystemsValueDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/CodingSystemsValueDAO.class
+END
+InsuranceTypeDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/dao/InsuranceTypeDAO.class
+END

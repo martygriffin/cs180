@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <!DOCTYPE validators PUBLIC 
+
+  		"-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+
+  		"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+        
+
+        <validators>
+
+	<field name="SID">
+
+		<field-validator type="requiredstring">
+
+			<param name="trim">true</param>
+
+			<message>SID name is required</message>
+
+		</field-validator>
+
+	</field>
+
+	<field name="netID">
+
+		<field-validator type="requiredstring">
+
+			<param name="trim">true</param>
+
+			<message>netID is required</message>
+
+		</field-validator>
+
+	</field>
+		<field name="first_name">
+
+		<field-validator type="requiredstring">
+
+			<param name="trim">true</param>
+
+			<message>first name is required</message>
+
+		</field-validator>
+
+	</field>
+	<field name="last_name">
+
+		<field-validator type="requiredstring">
+
+			<param name="trim">true</param>
+
+			<message>last name is required</message>
+
+		</field-validator>
+
+	</field>
+		<field name="email">
+
+		<field-validator type="email">
+
+			<param name="trim">true</param>
+
+			<message>valid email is required</message>
+
+		</field-validator>
+		</field>
+	<field name="email">
+
+		<field-validator type="requiredstring">
+
+			<param name="trim">true</param>
+
+			<message>email is required</message>
+
+		</field-validator>
+
+	</field>
+	
+
+	
+        </validators>

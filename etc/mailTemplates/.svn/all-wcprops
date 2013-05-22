@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/micromarty_cs180/!svn/ver/2/phr23/etc/mailTemplates
+END
+labclassResCancel.vm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/micromarty_cs180/!svn/ver/2/phr23/etc/mailTemplates/labclassResCancel.vm
+END
+labclassResChange.vm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/micromarty_cs180/!svn/ver/2/phr23/etc/mailTemplates/labclassResChange.vm
+END
+workshopResConfirm.vm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/micromarty_cs180/!svn/ver/2/phr23/etc/mailTemplates/workshopResConfirm.vm
+END
+labclassResConfirm.vm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/micromarty_cs180/!svn/ver/2/phr23/etc/mailTemplates/labclassResConfirm.vm
+END
+workshopResCancel.vm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/micromarty_cs180/!svn/ver/2/phr23/etc/mailTemplates/workshopResCancel.vm
+END
+workshopResChange.vm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/micromarty_cs180/!svn/ver/2/phr23/etc/mailTemplates/workshopResChange.vm
+END

@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/micromarty_cs180/!svn/ver/128/phr23/src/com/hibernate
+END
+HibernateSessionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/micromarty_cs180/!svn/ver/3/phr23/src/com/hibernate/HibernateSessionFactory.java
+END
+Custom.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/micromarty_cs180/!svn/ver/89/phr23/src/com/hibernate/Custom.hbm.xml
+END
+CustomDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/micromarty_cs180/!svn/ver/22/phr23/src/com/hibernate/CustomDAO.java
+END
+Order.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/micromarty_cs180/!svn/ver/100/phr23/src/com/hibernate/Order.hbm.xml
+END
+OrderDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/micromarty_cs180/!svn/ver/99/phr23/src/com/hibernate/OrderDAO.java
+END
+Favorites.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/micromarty_cs180/!svn/ver/22/phr23/src/com/hibernate/Favorites.java
+END
+User.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/micromarty_cs180/!svn/ver/99/phr23/src/com/hibernate/User.hbm.xml
+END
+UserDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/micromarty_cs180/!svn/ver/99/phr23/src/com/hibernate/UserDAO.java
+END
+BuddyList.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/micromarty_cs180/!svn/ver/22/phr23/src/com/hibernate/BuddyList.java
+END
+Coupon.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/micromarty_cs180/!svn/ver/103/phr23/src/com/hibernate/Coupon.java
+END
+Menu.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/micromarty_cs180/!svn/ver/111/phr23/src/com/hibernate/Menu.java
+END
+ItemsOrdered.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/micromarty_cs180/!svn/ver/101/phr23/src/com/hibernate/ItemsOrdered.hbm.xml
+END
+ItemCustomizations.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/128/phr23/src/com/hibernate/ItemCustomizations.java
+END
+Social.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/micromarty_cs180/!svn/ver/35/phr23/src/com/hibernate/Social.java
+END
+ItemsOrderedDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/micromarty_cs180/!svn/ver/101/phr23/src/com/hibernate/ItemsOrderedDAO.java
+END
+Order.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/micromarty_cs180/!svn/ver/99/phr23/src/com/hibernate/Order.java
+END
+Feedback.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/micromarty_cs180/!svn/ver/112/phr23/src/com/hibernate/Feedback.java
+END
+Reservation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/micromarty_cs180/!svn/ver/100/phr23/src/com/hibernate/Reservation.hbm.xml
+END
+ReservationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/micromarty_cs180/!svn/ver/45/phr23/src/com/hibernate/ReservationDAO.java
+END
+FavoritesDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/micromarty_cs180/!svn/ver/22/phr23/src/com/hibernate/FavoritesDAO.java
+END
+Favorites.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/micromarty_cs180/!svn/ver/22/phr23/src/com/hibernate/Favorites.hbm.xml
+END
+Menu.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/micromarty_cs180/!svn/ver/111/phr23/src/com/hibernate/Menu.hbm.xml
+END
+MenuDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/micromarty_cs180/!svn/ver/111/phr23/src/com/hibernate/MenuDAO.java
+END
+IBaseHibernateDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/micromarty_cs180/!svn/ver/3/phr23/src/com/hibernate/IBaseHibernateDAO.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/micromarty_cs180/!svn/ver/113/phr23/src/com/hibernate/Item.java
+END
+ItemCustomizationsDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/micromarty_cs180/!svn/ver/128/phr23/src/com/hibernate/ItemCustomizationsDAO.java
+END
+ItemCustomizations.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/micromarty_cs180/!svn/ver/128/phr23/src/com/hibernate/ItemCustomizations.hbm.xml
+END
+Social.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/micromarty_cs180/!svn/ver/99/phr23/src/com/hibernate/Social.hbm.xml
+END
+SocialDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/micromarty_cs180/!svn/ver/35/phr23/src/com/hibernate/SocialDAO.java
+END
+Reservation.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/micromarty_cs180/!svn/ver/45/phr23/src/com/hibernate/Reservation.java
+END
+OrderStatus.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/micromarty_cs180/!svn/ver/19/phr23/src/com/hibernate/OrderStatus.hbm.xml
+END
+LogDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/micromarty_cs180/!svn/ver/47/phr23/src/com/hibernate/LogDAO.java
+END
+Log.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/micromarty_cs180/!svn/ver/100/phr23/src/com/hibernate/Log.hbm.xml
+END
+MenuItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/micromarty_cs180/!svn/ver/55/phr23/src/com/hibernate/MenuItem.hbm.xml
+END
+MenuItemDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/micromarty_cs180/!svn/ver/22/phr23/src/com/hibernate/MenuItemDAO.java
+END
+Feedback.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/micromarty_cs180/!svn/ver/112/phr23/src/com/hibernate/Feedback.hbm.xml
+END
+FeedbackDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/micromarty_cs180/!svn/ver/112/phr23/src/com/hibernate/FeedbackDAO.java
+END
+Custom.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/micromarty_cs180/!svn/ver/89/phr23/src/com/hibernate/Custom.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/micromarty_cs180/!svn/ver/99/phr23/src/com/hibernate/User.java
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/micromarty_cs180/!svn/ver/3/phr23/src/com/hibernate/Test.java
+END
+BaseHibernateDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/micromarty_cs180/!svn/ver/3/phr23/src/com/hibernate/BaseHibernateDAO.java
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/micromarty_cs180/!svn/ver/47/phr23/src/com/hibernate/Log.java
+END
+ItemDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/micromarty_cs180/!svn/ver/69/phr23/src/com/hibernate/ItemDAO.java
+END
+Item.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/micromarty_cs180/!svn/ver/99/phr23/src/com/hibernate/Item.hbm.xml
+END
+MenuItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/micromarty_cs180/!svn/ver/55/phr23/src/com/hibernate/MenuItem.java
+END
+ItemsOrdered.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/micromarty_cs180/!svn/ver/101/phr23/src/com/hibernate/ItemsOrdered.java
+END
+Coupon.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/micromarty_cs180/!svn/ver/103/phr23/src/com/hibernate/Coupon.hbm.xml
+END
+CouponDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/micromarty_cs180/!svn/ver/96/phr23/src/com/hibernate/CouponDAO.java
+END
+BuddyList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/micromarty_cs180/!svn/ver/22/phr23/src/com/hibernate/BuddyList.hbm.xml
+END
+BuddyListDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/micromarty_cs180/!svn/ver/22/phr23/src/com/hibernate/BuddyListDAO.java
+END

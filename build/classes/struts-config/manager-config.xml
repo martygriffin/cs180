@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+	<package name="manager" namespace="/manager" extends="basePackage">
+		<default-action-ref name="index" />
+
+		<action name="index" class="edu.ucr.c3.wms.controller.BaseAction">
+			<result>/manager_welcome.jsp</result>
+		</action>
+
+		<action name="workshop_*" method="{1}"
+			class="edu.ucr.c3.wms.controller.manager.AddEditWorkshop">
+			<result name="input">/manager/workshop_form.jsp</result>
+			<result name="error">/manager/error.jsp</result>
+			<result name="error_param">/manager/error_param.jsp</result>
+			<result type="redirectAction">/manager/view_manage_workshop</result>
+		</action>
+
+		<action name="session_*" method="{1}"
+			class="edu.ucr.c3.wms.controller.manager.AddEditSession">
+			<result name="input">/manager/session_form.jsp</result>
+			<result name="error">/manager/error.jsp</result>
+			<result name="error_param">/manager/error_param.jsp</result>
+			<result type="redirectAction">/manager/view_manage_workshop</result>
+		</action>
+
+		<action name="manage_session_*" method="{1}"
+			class="edu.ucr.c3.wms.controller.manager.ViewSession">
+			<result name="error_param">/manager/error_param.jsp</result>
+			<result name="error">/manager/error.jsp</result>
+			<result>/manager/session_view.jsp</result>
+			<result name="excel" type="stream">
+				<param name="contentType">application/vnd.ms-excel</param>
+				<param name="inputName">excelStream</param>
+				<param name="contentDisposition">attachment; filename="excelExport.xls"</param>
+				<param name="bufferSize">1024</param>
+			</result>
+		</action>
+
+		<action name="manage_section_*" method="{1}"
+			class="edu.ucr.c3.wms.controller.manager.ViewSection">
+			<result name="error">/manager/error.jsp</result>
+			<result name="error_param">/manager/error_param.jsp</result>
+			<result>/manager/section_view.jsp</result>
+			<result name="excel" type="stream">
+	            <param name="contentType">application/vnd.ms-excel</param>
+	            <param name="inputName">excelStream</param>
+	            <param name="contentDisposition">attachment; filename="excelExport.xls"</param>
+	            <param name="bufferSize">1024</param>
+	        </result>
+        </action>
+
+        <action name="labclass_*" method="{1}" class="edu.ucr.c3.wms.controller.manager.AddEditLabclass">
+            <result name="input">/manager/labclass_form.jsp</result>
+            <result name="error">/manager/error.jsp</result>
+            <result name="error_param">/manager/error_param.jsp</result>
+            <result type="redirectAction">/manager/view_manage_labclass</result>
+        </action>
+        
+        <action name="section_*" method="{1}" class="edu.ucr.c3.wms.controller.manager.AddEditSection">
+            <result name="input">/manager/section_form.jsp</result>
+            <result name="error">/manager/error.jsp</result>
+            <result name="error_param">/manager/error_param.jsp</result>
+            <result type="redirectAction">/manager/view_manage_labclass</result>
+        </action>
+        
+        <action name="view_*" method="{1}" class="edu.ucr.c3.wms.controller.manager.ManagerView">
+            <result name="workshop">/manager/manager_view_workshops.jsp</result>
+             <result name="labclass">/manager/manager_view_labclasses.jsp</result>
+             <result name="manage_workshop">/manager/manager_manage_workshops.jsp</result>
+             <result name="manage_labclass">/manager/manager_manage_labclasses.jsp</result>
+        </action>
+        
+        <action name="confirmation_number_search" class="edu.ucr.c3.wms.controller.manager.ConfirmationNumber">
+          	<result>/manager/confirmation_number_search.jsp</result>
+        </action>  
+        
+        <action name="search_*" method="{1}" class="edu.ucr.c3.wms.controller.manager.search">
+          	<result>/manager/search.jsp</result>
+          	<result name = "search">/manager/search_result.jsp</result>
+          	<result name = "search_form">/manager/search.jsp</result>
+          	<result name = "error">/manager/error.jsp</result>
+			<result name = "excel" type="stream">
+	            <param name="contentType">application/vnd.ms-excel</param>
+	            <param name="inputName">excelStream</param>
+	            <param name="contentDisposition">attachment; filename="excelExport.xls"</param>
+	            <param name="bufferSize">1024</param>
+	        </result>
+        </action>  
+        
+ 
+        
+    </package>
+
+</struts>

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/controller/user
+END
+AddEditMedication.class
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/controller/user/AddEditMedication.class
+END
+AddEditSimpleClinicalNote.class
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/controller/user/AddEditSimpleClinicalNote.class
+END
+AddEditAllergy.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/controller/user/AddEditAllergy.class
+END
+AddEditResults.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/controller/user/AddEditResults.class
+END
+AddEditVitals.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/controller/user/AddEditVitals.class
+END
+AddEditImmunization.class
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/controller/user/AddEditImmunization.class
+END
+AddEditProblems.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/controller/user/AddEditProblems.class
+END
+Default.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/controller/user/Default.class
+END
+AddEditInsurance.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/controller/user/AddEditInsurance.class
+END
+AddEditMeasurements.class
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/controller/user/AddEditMeasurements.class
+END
+AddEditDicom.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/controller/user/AddEditDicom.class
+END
+AddEditProcedures.class
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/controller/user/AddEditProcedures.class
+END

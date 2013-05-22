@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/business/admin
+END
+UserService.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/business/admin/UserService.class
+END
+AdminLevelService.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/business/admin/AdminLevelService.class
+END
+InactivationService.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/business/admin/InactivationService.class
+END

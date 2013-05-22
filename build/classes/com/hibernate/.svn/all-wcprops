@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate
+END
+Custom.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/Custom.hbm.xml
+END
+Order.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/Order.class
+END
+User.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/User.hbm.xml
+END
+Test.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/Test.class
+END
+ItemDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/ItemDAO.class
+END
+MenuItem.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/MenuItem.class
+END
+FavoritesDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/FavoritesDAO.class
+END
+ItemsOrdered.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/ItemsOrdered.hbm.xml
+END
+BuddyListDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/BuddyListDAO.class
+END
+IBaseHibernateDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/IBaseHibernateDAO.class
+END
+Item.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/Item.class
+END
+CustomDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/CustomDAO.class
+END
+OrderDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/OrderDAO.class
+END
+Reservation.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/Reservation.class
+END
+UserDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/UserDAO.class
+END
+Favorites.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/Favorites.class
+END
+BuddyList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/BuddyList.hbm.xml
+END
+Menu.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/Menu.hbm.xml
+END
+MenuItemDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/MenuItemDAO.class
+END
+ItemsOrderedDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/ItemsOrderedDAO.class
+END
+Custom.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/Custom.class
+END
+Order.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/Order.hbm.xml
+END
+User.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/User.class
+END
+BaseHibernateDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/BaseHibernateDAO.class
+END
+MenuItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/MenuItem.hbm.xml
+END
+ReservationDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/ReservationDAO.class
+END
+ItemsOrdered.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/ItemsOrdered.class
+END
+MenuDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/MenuDAO.class
+END
+HibernateSessionFactory.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/HibernateSessionFactory.class
+END
+Item.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/Item.hbm.xml
+END
+Reservation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/Reservation.hbm.xml
+END
+Favorites.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/Favorites.hbm.xml
+END
+BuddyList.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/BuddyList.class
+END
+Menu.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/micromarty_cs180/!svn/ver/12/phr23/build/classes/com/hibernate/Menu.class
+END

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.custom.i18n.resources" value="global, messages" />
+	<constant name="struts.action.extension" value="do" />
+	<constant name="struts.objectFactory" value="spring" />
+	<constant name="struts.ui.theme" value="simple" />
+	<constant name="struts.devMode" value="false" />
+
+	<include file="struts-config/default-config.xml" />
+	<!--
+		<include file="struts-config/student-config.xml" /> <include
+		file="struts-config/manager-config.xml" /> <include
+		file="struts-config/admin-config.xml" />
+	-->
+	<package name="basePackage" extends="struts-default-custom">
+		<global-results>
+			<result name="login" type="redirectAction">login.do</result>
+			<result name="logout" type="redirectAction">index.jsp</result>
+		</global-results>
+
+		<action name="clear" />
+
+
+		<action name="login" class="edu.ucr.c3.wms.controller.shared.Login">
+			<interceptor-ref name="noLoginStack" />
+			<!--
+				<result name="user" type="redirectAction">default_test</result>
+			-->
+			<result name="user">/home.jsp</result>
+			<result name="error">/login.jsp</result>
+		</action>
+
+		<action name="default_*" method="{1}"
+			class="edu.ucr.c3.phr.controller.user.Default">
+			<result name="success">index.jsp</result>
+			<result name="refesh" type="redirectAction">default_test</result>
+		</action>
+
+		<action name="index_*"  method="{1}" class="com.index.IndexFunctions">
+			<result name="success">public_home.jsp</result>
+
+		</action>
+		
+		<action name="about_*"  method="{1}" class="com.index.IndexFunctions">
+			<result name="success">about_us.jsp</result>
+
+		</action>
+
+		<action name="menu_*" method="{1}" class="com.menu.MenuFunctions">
+			<result name="view">menu.jsp</result>
+			<result name="viewdeleted">deleted_menus.jsp</result>
+			<result name="items">menu_additems.jsp</result>
+			<result name="error">menu_add.jsp</result>
+			<result name="erroredit">menu_edit.jsp</result>
+			<result name="erroradd">menu_add.jsp</result>
+			<result name="error_add_item">menu_additems.jsp</result>
+			<result name="load/edit">menu_edit.jsp</result>
+			<result name="editItems">menu_editItems.jsp</result>
+			<result name="userViewMenu">userViewMenus.jsp</result>
+			<result name="userViewItems">userViewItems.jsp</result>
+			
+			<result name="edited" type="redirectAction">menu_viewMenus</result>
+		</action>
+		
+		<action name="reservations_*" method="{1}"
+			class="com.reservation.ReservationFunctions">
+			<result name="load/edit">/reservations/reservations_edit.jsp</result>
+			<result name="erroradd">/reservations/reservation_add.jsp</result>
+			<result name="erroredit">/reservations/reservations_edit.jsp</result>
+			<result name="current">/reservations/reservations_current.jsp</result>
+			<result name="deleted">/reservations/reservations_deleted.jsp</result>
+			<result name="reservation">/reservations/reservation_add.jsp</result>
+			<result name="edited" type="redirectAction">reservations_currentReservations</result>
+		</action>
+			<action name="coupon_*" method="{1}" class="com.coupon.CouponFunctions">
+			<result name="success">/coupon/coupon_add.jsp</result>
+			<result name="addError">/coupon/coupon_add.jsp</result>
+			<result name="editError">/coupon/coupon_edit.jsp</result>
+			<result name="view">/coupon/coupon.jsp</result>
+			<result name="viewInactive">/coupon/coupon_inactive.jsp</result>
+			<result name="editPrep">/coupon/coupon_edit.jsp</result>
+			<result name="added" type="redirectAction">coupon_view</result>
+		</action>
+		
+		<action name="social_*" method="{1}" class="com.social.SocialFunctions">
+		<result name="success">/social/social_add.jsp</result>
+		<result name="error">/social/social_add.jsp</result>
+		<result name="error2">/social/social_edit.jsp</result>
+			<result name="edit">/social/social_edit.jsp</result>
+			<result name="view">/social/socialview.jsp</result>
+				<result name="inactive">/social/social_inactive.jsp</result>
+			<result name="add" type="redirectAction">social_view</result>
+		</action>
+		
+		<action name="order_*" method="{1}" class="com.order.OrderFunctions">
+			<result name="details">/orders/order_details.jsp</result>
+			<result name="unfilled">/orders/orders_unfilled.jsp</result>
+			<result name="deleted" type="redirectAction">order_deleted</result>
+			<result name="view_deleted">/orders/orders_unfilled.jsp</result>
+
+			<result name="completed">/orders/orders_completed.jsp</result>
+			<result name="marked">/orders/view_orders.jsp</result>
+			<result name="markedComplete" type="redirectAction">order_completed</result>
+			<result name="markedUnfilled" type="redirectAction">order_unfilled</result>
+			<result name="markedcompleted" type="redirectAction">order_completed</result>
+			<result name="undeleted" type="redirectAction">order_unfilled</result>
+
+
+		</action>
+
+
+		<action name="item_*" method="{1}" class="com.item.ItemFunctions">
+			<result name="view">/item/item.jsp</result>
+			<result name="success">/item/add_item.jsp</result>
+			<result name="erroradd">/item/add_item.jsp</result>
+			<result name="erroredit">/item/item_edit.jsp</result>
+			<result name="viewdeleted">/item/deleted_items.jsp</result>
+			<result name="load/edit">/item/item_edit.jsp</result>
+			<result name="edited" type="redirectAction">item_viewItems</result>
+		</action>
+
+		<action name="user_*" method="{1}" class="com.user.UserFunctions">
+			<result name="view">user.jsp</result>
+			<result name="viewinactive">user_inactiveadmins.jsp</result>
+			<result name="load/edit">user_editadmin.jsp</result>
+			<result name="erroredit">user_editadmin.jsp</result>
+			<result name="erroradd">user_newadmin.jsp</result>
+			<result name="log">user_log.jsp</result>
+			<result name="edited" type="redirectAction">user_viewAdmins</result>
+		</action>
+		
+		<action name="feedback_*" method="{1}" class="com.feedback.FeedbackFunctions">
+			<result name="view">/feedback/feedback_active.jsp</result>
+			<result name="public_view">/feedback/user_viewfeedback.jsp</result>
+			<result name="view_deleted">/feedback/feedback_deleted.jsp</result>
+			<result name="populate">/feedback/feedbackadd.jsp</result>
+			<result name="erroradd">/feedback/feedbackadd.jsp</result>
+			<result name="deleted" type="redirectAction">feedback_viewActiveFeedback</result>
+			<result name="undeleted" type="redirectAction">feedback_viewDeletedFeedback</result>
+			<result name="added" type="redirectAction">feedback_viewPublicFeedback</result>
+			</action>
+
+		<action name="logout" class="edu.ucr.c3.wms.controller.shared.Logout">
+			<interceptor-ref name="noLoginStack" />
+			<result>index.jsp</result>
+
+		</action>
+
+	</package>
+
+</struts>
+
+

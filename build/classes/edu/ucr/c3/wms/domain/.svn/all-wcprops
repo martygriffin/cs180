@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain
+END
+ManagerLogin.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/ManagerLogin.class
+END
+Department.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/Department.class
+END
+DeptAgreeRel.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/DeptAgreeRel.class
+END
+Section.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/Section.class
+END
+LabclassReservationRecord.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/LabclassReservationRecord.class
+END
+DeptAdmin.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/DeptAdmin.class
+END
+ReservationStatus.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/ReservationStatus.class
+END
+LabclassReservation.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/LabclassReservation.class
+END
+Agreement.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/Agreement.class
+END
+College.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/College.class
+END
+Manager.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/Manager.class
+END
+Workshop.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/Workshop.class
+END
+WeeklySchedule.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/WeeklySchedule.class
+END
+WorkshopLog.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/WorkshopLog.class
+END
+AcademicTerm.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/AcademicTerm.class
+END
+University.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/University.class
+END
+AdminLogin.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/AdminLogin.class
+END
+SystemSetting.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/SystemSetting.class
+END
+AppType.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/AppType.class
+END
+Session.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/Session.class
+END
+Labclass.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/Labclass.class
+END
+LabclassLog.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/LabclassLog.class
+END
+Student.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/Student.class
+END
+Admin.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/Admin.class
+END
+SystemVersion.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/SystemVersion.class
+END
+LogonRoleLookup.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/LogonRoleLookup.class
+END
+WorkshopReservationRecord.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/WorkshopReservationRecord.class
+END
+ManagerAppRole.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/ManagerAppRole.class
+END
+WorkshopReservation.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/WorkshopReservation.class
+END
+DomainObject.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/domain/DomainObject.class
+END

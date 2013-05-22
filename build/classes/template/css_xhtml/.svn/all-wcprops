@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml
+END
+controlheader.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/controlheader.ftl
+END
+form-validate.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/form-validate.ftl
+END
+radiomap.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/radiomap.ftl
+END
+controlfooter.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/controlfooter.ftl
+END
+head.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/head.ftl
+END
+password.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/password.ftl
+END
+form.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/form.ftl
+END
+submit.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/submit.ftl
+END
+inputtransferselect.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/inputtransferselect.ftl
+END
+submit-close.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/submit-close.ftl
+END
+form-close.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/form-close.ftl
+END
+combobox.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/combobox.ftl
+END
+theme.properties
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/theme.properties
+END
+doubleselect.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/doubleselect.ftl
+END
+updownselect.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/updownselect.ftl
+END
+textarea.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/textarea.ftl
+END
+optiontransferselect.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/optiontransferselect.ftl
+END
+controlheader-core.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/controlheader-core.ftl
+END
+file.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/file.ftl
+END
+label.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/label.ftl
+END
+select.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/select.ftl
+END
+control.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/control.ftl
+END
+validation.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/validation.js
+END
+reset.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/reset.ftl
+END
+checkboxlist.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/checkboxlist.ftl
+END
+control-close.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/control-close.ftl
+END
+text.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/text.ftl
+END
+styles.css
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/styles.css
+END
+checkbox.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/checkbox.ftl
+END
+debug.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/template/css_xhtml/debug.ftl
+END

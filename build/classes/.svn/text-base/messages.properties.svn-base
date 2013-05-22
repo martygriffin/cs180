@@ -1,0 +1,48 @@
+#####################
+# Validator messages
+#####################
+required = is required.
+requiredNum = ${getText(fieldName)} must be numeric.
+requiredSel = must be selected.
+numMin = ${getText(fieldName)} must be greater than ${min}.
+
+###############
+# Request Form
+###############
+invalid.fieldvalue.maxCap = Maximum Capacity must be numeric.
+invalid.fieldvalue.daysEarly = Number of Days Early must be numeric.
+invalid.fieldvalue.startDate = Start Date is not formatted properly (mm/dd/yyyy).
+invalid.fieldvalue.endDate = End Date is not formatted properly (mm/dd/yyyy).
+year.label=Year
+name.label=Name
+univId.label=University
+coll.label=College
+dept.label=Department
+serv.label=Service
+key.label=Authorization Key
+sidRule.label=SID Rule
+sid.label=SID
+term.label=Term
+time.label=Time
+weeklyDay.label=Weekly Day
+url.label=URL
+location.label=Location
+maxCap.label=Maximum Capacity
+daysEarly.label=Number of Days Early
+netID.label=NetID
+authKey.label=Authorization Key
+username.label=User Name
+password.label=Password
+firstName.label=First Name
+lastName.label=Last Name
+email.label=Email Address
+startDate.label=Start Date
+endDate.label=End Date
+description.label=Description
+comments.label=Comments
+telephone.label=Telephone
+
+################
+# Formats
+################
+format.date ={0,date,MM/dd/yyyy}

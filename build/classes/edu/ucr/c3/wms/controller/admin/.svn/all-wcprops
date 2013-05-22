@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin
+END
+AddEditCollege-validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/AddEditCollege-validation.xml
+END
+AddEditManager-validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/AddEditManager-validation.xml
+END
+ViewUniversity.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/ViewUniversity.class
+END
+ViewDepartment.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/ViewDepartment.class
+END
+AddEditUniversity.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/AddEditUniversity.class
+END
+AddEditDepartment.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/AddEditDepartment.class
+END
+AddEditUniversity-validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/AddEditUniversity-validation.xml
+END
+AddEditDepartment-validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/AddEditDepartment-validation.xml
+END
+ViewCollege.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/ViewCollege.class
+END
+ViewManager.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/ViewManager.class
+END
+EditSettings.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/EditSettings.class
+END
+AddEditCollege.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/AddEditCollege.class
+END
+AddEditManager.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/AddEditManager.class
+END

@@ -1,0 +1,86 @@
+<!DOCTYPE validators PUBLIC
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+	<field name="name">
+        <field-validator type="requiredstring">
+            <message>${getText("name.label")} ${getText("required")}</message>
+        </field-validator>
+    </field>
+
+    <field name="year">
+        <field-validator type="int">
+            <message>${getText("year.label")} ${getText("requiredNum")}</message>
+        </field-validator>
+        <field-validator type="required">
+            <message>${getText("year.label")} ${getText("required")}</message>
+        </field-validator>
+	    <field-validator type="yearValidator">
+	        <message>Year must match Start Date's year.</message>
+	    </field-validator> 
+
+    </field>
+    
+    
+	<field name="termId">
+        <field-validator type="requiredSelect">
+            <message>${getText("term.label")} ${getText("required")}</message>
+        </field-validator>
+    </field>
+    
+	<field name="startDate">
+        <field-validator type="required">
+            <message>${getText("startDate.label")} ${getText("required")}</message>
+        </field-validator>
+        <field-validator type="dateValidator">
+            <message>Start Date much be before End Date</message>
+        </field-validator>
+    </field>
+    
+	<field name="endDate">
+        <field-validator type="required">
+            <message>${getText("endDate.label")} ${getText("required")}</message>
+        </field-validator>
+	    <field-validator type="endDateValidator">
+	        <message>End Date must be set to date in the future.</message>
+	    </field-validator> 
+    </field>
+    
+	<field name="time">
+        <field-validator type="requiredstring">
+            <message>${getText("time.label")} ${getText("required")}</message>
+        </field-validator>
+    </field>
+    
+	<field name="location">
+        <field-validator type="requiredstring">
+            <message>${getText("location.label")} ${getText("required")}</message>
+        </field-validator>
+    </field>      
+        
+	<field name="maxCap">
+        <field-validator type="required">
+            <message>${getText("maxCap.label")} ${getText("required")}</message>
+        </field-validator>
+		<field-validator type="int">
+            <message>${getText("maxCap.label")} ${getText("requiredNum")}</message>
+        </field-validator> 
+    </field> 
+    
+	<field name="daysEarly">
+        <field-validator type="required">
+            <message>${getText("daysEarly.label")} ${getText("required")}</message>
+        </field-validator>
+		<field-validator type="int">
+            <message>${getText("daysEarly.label")} ${getText("requiredNum")}</message>
+        </field-validator> 
+    </field> 
+    <!--      
+    <field name="comments">
+        <field-validator type="requiredSelect">
+            <message>${getText("dept.label")} ${getText("required")}</message>
+        </field-validator>
+    </field>
+     -->
+</validators>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/micromarty_cs180/!svn/ver/157/phr23/etc
+END
+Custom-validators.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/micromarty_cs180/!svn/ver/2/phr23/etc/Custom-validators.xml
+END
+.example.mex
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/micromarty_cs180/!svn/ver/2/phr23/etc/.example.mex
+END
+spring.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/micromarty_cs180/!svn/ver/128/phr23/etc/spring.xml
+END
+messages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/micromarty_cs180/!svn/ver/2/phr23/etc/messages.properties
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/micromarty_cs180/!svn/ver/157/phr23/etc/struts.xml
+END
+.struts.mex
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/micromarty_cs180/!svn/ver/2/phr23/etc/.struts.mex
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/micromarty_cs180/!svn/ver/2/phr23/etc/log4j.properties
+END

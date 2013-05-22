@@ -1,0 +1,5 @@
+Dear $student,
+The date or time of the $session session of the $workshop workshop has changed.
+New session details:
+Date and time: $when
+Location: $location

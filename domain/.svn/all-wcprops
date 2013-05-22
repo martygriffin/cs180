@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain
+END
+Admin.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/Admin.java
+END
+LogonRoleLookup.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/LogonRoleLookup.java
+END
+SystemVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/SystemVersion.java
+END
+ManagerAppRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/ManagerAppRole.java
+END
+WorkshopReservationRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/WorkshopReservationRecord.java
+END
+DomainObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/DomainObject.java
+END
+WorkshopReservation.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/WorkshopReservation.java
+END
+DeptAgreeRel.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/DeptAgreeRel.java
+END
+Department.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/Department.java
+END
+ManagerLogin.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/ManagerLogin.java
+END
+Section.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/Section.java
+END
+DeptAdmin.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/DeptAdmin.java
+END
+LabclassReservationRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/LabclassReservationRecord.java
+END
+ReservationStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/ReservationStatus.java
+END
+LabclassReservation.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/LabclassReservation.java
+END
+Agreement.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/Agreement.java
+END
+Manager.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/Manager.java
+END
+College.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/College.java
+END
+Workshop.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/Workshop.java
+END
+WeeklySchedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/WeeklySchedule.java
+END
+AcademicTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/AcademicTerm.java
+END
+WorkshopLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/WorkshopLog.java
+END
+AdminLogin.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/AdminLogin.java
+END
+University.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/University.java
+END
+SystemSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/SystemSetting.java
+END
+AppType.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/AppType.java
+END
+Session.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/Session.java
+END
+Labclass.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/Labclass.java
+END
+LabclassLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/LabclassLog.java
+END
+Student.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/micromarty_cs180/!svn/ver/2/phr23/domain/Student.java
+END

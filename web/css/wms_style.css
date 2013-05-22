@@ -1,0 +1,492 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	height: 100%; 
+	font-size: 100%; /* IE hack */
+	margin: 0;
+	padding: 0;
+}
+error{
+	color:red;
+	font-weight:bold;
+}
+
+.download{
+	display:none;
+}
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif;
+	color: #333;
+	font-size: 0.75em;
+	margin: 0;
+	padding: 0;
+	background-color: #deddf5;
+}
+
+#container {
+	background: #ffffff url(../images/header_bg.gif) top repeat-x;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#masthead {
+	width: 940px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#title {
+	padding-top: 15px;
+	color: #FFF;
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	font-variant: small-caps;
+	font-family:Calibri, Arial, sans-serif;
+}
+
+#title #department {
+	max-width:50%;
+	text-align:left;
+	float:left;
+	margin: 0;
+	vertical-align:top;
+	overflow:hidden;
+}
+
+#title #service {
+	vertical-align:top;
+	text-align:right;
+	margin: 0;
+}
+
+#content {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+	min-height: 500px;
+}
+
+#content h2 {
+	border-bottom: 1px solid #D6D6D6;
+	font-size: 2.25em;
+	font-weight: normal;
+	line-height: 1.083em;
+}
+
+#headerContainer{
+	vertical-align:top;
+	overflow:hidden;
+	border-bottom:1px solid #D6D6D6;
+	margin:20px 0;
+	padding:5px;
+}
+
+#headerContainer #header{
+	max-width:50%;
+	text-align:left;
+	float:left;
+	margin: 0;
+	vertical-align:top;
+	overflow:hidden;
+}
+#headerContainer #header h1{
+	text-align:left;
+	margin:0;
+	vertical-align:top;
+}
+#headerContainer #userInfo{
+	vertical-align:top;
+	text-align:right;
+	margin: 0;
+}
+
+#headerContainer #userInfo p{
+	margin: 0;
+} 
+
+#footer_wrapper {
+	margin: 0 auto;
+	padding: 0;
+	background: #deddf5 url(../images/footer.gif) center top repeat-x;
+	min-height: 225px;
+}
+
+#footer {
+	width: 940px;
+	margin: 0 auto;
+	padding: 30px 0px 20px 0px;
+	text-align: right;
+	color: #666666;
+	font-family: Arial,"Helvetica Neue",Helvetica,Geneva,sans-serif;
+	font-size: 0.9em;
+	line-height: 1.5;
+}
+
+#footer h3 {
+	margin-top: 2px;
+	color: #ffffff;
+	font-size: 1.025em;
+}
+
+#footer a:link, #footer a:visited {
+	color: #666666;
+	border-bottom: 1px dotted #999999;
+}
+
+#footer A:hover {
+	color: #FF9900;
+}
+
+#footer ul {
+	margin-left: 0; 
+	padding-left: 5px;
+}
+
+#heading {
+	width: 900px;
+	margin: 0 auto;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#cL {
+	float: left;
+	width: 210px;
+}
+
+#mainContent {
+	margin-left: 230px;
+	width: 710px;
+	padding: 0px 0px 20px 0px;
+	line-height: 1.5;
+}
+
+#mainContentNoSidebar {
+	width: 940px;
+	padding: 0px 0px 20px 0px;
+	line-height: 1.5;
+}
+
+ul#nav, ul#nav ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#nav a {
+	display: block;
+	text-decoration: none;	
+}
+
+ul#nav li a {
+	border-bottom: 1px dotted #CCCCCC;
+	color: #2d6cc0;
+	line-height: 1.5em;	
+	padding: 0.45em;
+	font-size: 1.083em;
+	font-weight: bold;
+}
+
+ul#nav li a:hover {
+	color: #FF9900;
+	background-color: #ebe8ef;
+}
+
+ul#nav li ul li a {
+	padding-left: 25px;
+	background-image: url(../images/list_arrow_ltblue.png);
+	background-position: 0.75em 1em;
+	background-repeat: no-repeat;
+}
+
+ul#nav li ul li a:hover {
+	background-color: #ebe8ef;
+}
+
+ul#nav li a.uberlink {
+	color: #FF9900;
+}
+
+.error{
+	color:red;
+	font-weight:bold;
+}
+error{
+	color:red;
+	font-weight:bold;
+	}
+.borderbottom {
+	border-bottom: 1px dotted #DDDDDD;
+	margin: 3px;
+	padding: 2px;
+}
+
+.border {
+	border: 1px solid #999999;
+	margin: 2px;
+	padding: 3px;
+}
+
+.fieldborder {
+	border: 1px solid #CCCCCC;
+	margin: 2px;
+	padding: 3px;
+	color: #666666;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+
+.clearfloat {
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+.photoborder {
+	border: 1px solid #CCCCCC;
+	margin: 2px;
+	padding: 3px;
+}
+
+.facultyname {
+	color: #999900;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.caption {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.additional_section_time {
+	visibility: collapse;
+}
+
+H1 {
+	font-size: 2.2em;/* 24px */
+	line-height: 1.083em;
+	font-weight: normal;
+	letter-spacing: -.03em; 
+	color: #444444;
+}
+
+
+H2, legend {
+	font-size: 2.25em;
+	font-weight: normal;
+	line-height: 1.083em;
+	color: #2D6CC0;
+}
+
+H3 {
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #030066;
+}
+
+legend {
+	font-weight: bold;
+}
+
+A:link, A:visited {
+	color: #0000FF;
+	text-decoration: none;
+}
+
+A:hover {
+	color: #FF9900;
+}
+
+/*begin setup for jquery datepicker*/
+a.dp-choose-date {
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 5px 3px 0;
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url(calendar.png) no-repeat; 
+}
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+/* makes the input field shorter once the date picker code
+ * has run (to allow space for the calendar icon
+ */
+#mainContent input.dp-applied {
+}
+/*end setup for jquery datepicker*/
+
+#mainContent td {
+	vertical-align:top;
+}
+
+#mainContent td.right {
+	text-align:right;
+}
+
+#mainContent table#manage {
+	width:100%;
+	border:1px solid black;
+}
+
+#mainContent table#manage input{
+	width:100%;
+}
+
+#mainContent table#manage th, #mainContent table#manage td {
+	overflow:hidden;
+	word-wrap:break-word;
+	text-align:left;
+}
+
+#mainContent table#manage th {
+	background-color:#CCCCCC;
+}
+
+#mainContent table#manage td {
+	border-top:1px solid black;
+}
+#mainContent table#manage .univ_name {
+	width:30%;
+}
+#mainContent table#manage .url {
+	width:30%;
+}
+#mainContent table#manage .url_small {
+	width:25%;
+}
+#mainContent table#manage .sid_rule {
+	width:30%;
+}
+#mainContent table#manage .col_name {
+	width:30%;
+}
+#mainContent table#manage .col_name_small {
+	width:25%;
+}
+#mainContent table#manage .name_small {
+	width:15%;
+}
+#mainContent table#manage .man_name {
+	width:20%;
+}
+#mainContent table#manage .dept_name {
+	width:25%;
+}
+#mainContent table#manage .email {
+	width:30%;
+}
+#mainContent table#manage .telephone {
+	width:15%;
+}
+#mainContent table#manage .buttons {
+	width:10%;
+}
+#mainContent table#manage .authkey {
+	width:10%;
+}
+#mainContent table#manage .workshop_labclass_name {
+	width:20%;
+}
+#mainContent table#manage .workshop_labclass_description {
+	width:30%;
+}
+#mainContent table#manage .sessions_sections {
+	width:40%;
+}
+
+#mainContent table#manage .name {
+	width:15%;
+}
+
+#mainContent table#manage .description {
+	width:35%;
+}
+
+
+
+
+#mainContent table#addEdit {
+	width:100%;
+}
+
+#mainContent table#addEdit .name {
+	width:21%;
+	text-align:right;
+}
+
+#mainContent table#addEdit .field {
+	width:85%;
+	text-align:left;
+	vertical-align:bottom;
+}
+
+#mainContent ul > li {
+	list-style-image:url(../images/list_dblarrow_purple.gif);
+}
+
+#mainContent ul > li {
+	list-style-position:outside;
+	list-style-type:none;
+	margin:1em 0 0 3em;
+}
+
+#mainContent ul.hidden {
+	padding:0;
+	margin:0;
+}
+
+#mainContent ul.hidden > li{
+	margin:0;
+	list-style-image:none;
+}
+
+.box {
+/*this is a box*/
+  background: #F5F5F5;
+  padding: 3px;
+  margin: 2px;
+  border-color: #CCCCCC;
+  border-style: solid;
+  border-width: 1px; 
+/*the border property in longhand*/ }
+
+.underline1 {
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.underline2 {
+	border-bottom: 1px dotted #CCCCCC;
+}
+
+input.button {
+	width: 100px;
+}
+
+
+/* These work in modern browsers (not IE) that support the 1998 spec. */
+a[href$="pdf"]:after { content: " " url(http://www.ucr.edu/images/design6/pdf.gif); }
+a[href$="doc"]:after { content: " " url(http://www.ucr.edu/images/design6/doc.gif); }
+a[href$="xls"]:after { content: " " url(http://www.ucr.edu/images/design6/xls.gif); }
+a[href$="ppt"]:after { content: " " url(http://www.ucr.edu/images/design6/ppt.gif); }
+a[href$="vsd"]:after { content: " " url(http://www.ucr.edu/images/design6/vsd.gif); }
+a[href$="zip"]:after { content: " " url(http://www.ucr.edu/images/design6/zip.gif); }
+a[href$="dwg"]:after { content: " " url(http://www.ucr.edu/images/design6/dwg.gif); }
+a[href$="mov"]:after { content: " " url(http://www.ucr.edu/images/design6/qt.gif); }
+
+div.nav a[href$="pdf"]:after,
+div.nav a[href$="doc"]:after,
+div.nav a[href$="xls"]:after,
+a.img_link:after
+{ content: ""; }
+
+a.img_link:hover {
+	text-decoration: none;
+}

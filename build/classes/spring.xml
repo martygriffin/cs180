@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	 
+	<!-- 
+    DAO Definitions
+    -->  	
+	<!--<import resource="spring-config/spring-DAO.xml"/>
+	
+	--><!-- 
+    Service Layer Definitions
+	
+	<import resource="spring-GlobalServices.xml"/>
+	<import resource="spring-FacultyServices.xml"/>
+	--><!--
+	<import resource="spring-config/spring-adminServices.xml"/>
+	<import resource="spring-config/spring-CCRService.xml"/>
+	<import resource="spring-config/spring-reservationServices.xml"/>
+	
+	 
+    Service Layer Proxy Definitions
+    
+    <import resource="spring-GlobalServiceProxies.xml"/>    
+    <import resource="spring-FacultyServiceProxies.xml"/>
+    
+    <import resource="spring-config/spring-adminServiceProxy.xml"/>
+  <import resource="spring-config/spring-CCRServiceProxy.xml"/>
+--><!--    <import resource="spring-config/spring-reservationServiceProxy.xml"/>    -->
+
+    <bean id="mainDataSource" 
+        class="org.apache.commons.dbcp.BasicDataSource"
+        destroy-method="close">
+
+        <property name="driverClassName"><value>com.mysql.jdbc.Driver</value></property>
+        <property name="url"><value>jdbc:mysql://cs180admin.db.5875115.hostedresource.com/cs180admin</value></property>
+        <property name="username"><value>cs180admin</value></property>
+        <property name="password"><value>Hobojoe7!</value></property>
+        <property name="defaultAutoCommit"><value>true</value></property>
+
+        <property name="maxActive"><value>50</value></property>
+        <property name="maxIdle"><value>10</value></property>
+        <property name="minIdle"><value>2</value></property>
+        <property name="maxWait"><value>5000</value></property>
+        <property name="validationQuery"><value>select 0</value></property>
+    </bean>
+	
+    <bean id="sessionFactory" 
+        class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+
+        <property name="dataSource">
+        	<ref bean="mainDataSource"/>
+        </property>
+<!--        <property name="eventListeners">-->
+<!--        	<map>-->
+<!--            	<entry key="pre-delete"><bean class="edu.ucr.c3.wms.business.reservation.DeleteListener" /></entry>-->
+<!--        	</map>-->
+<!--    	</property>-->
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLInnoDBDialect</prop>
+                <prop key="hibernate.show_sql">false</prop>
+            </props>
+        </property>
+        <property name="mappingResources">
+            <list>
+			    <value>/mappings/BuddyList.hbm.xml</value>
+				<value>/mappings/Favorites.hbm.xml</value>
+				<value>/mappings/Menu.hbm.xml</value>
+				<value>/mappings/MenuItem.hbm.xml</value>
+				<value>/mappings/Order.hbm.xml</value>
+				<value>/mappings/Reservation.hbm.xml</value>
+				<value>/mappings/User.hbm.xml</value>
+			    <value>/mappings/Actors.hbm.xml</value>
+				<value>/mappings/Allergys.hbm.xml</value>
+				<value>/mappings/CodingSystem.hbm.xml</value>
+				<value>/mappings/CodingSystemsValue.hbm.xml</value>
+				<value>/mappings/Department.hbm.xml</value>
+				<value>/mappings/Dicom.hbm.xml</value>
+				<value>/mappings/Files.hbm.xml</value>
+				<value>/mappings/Hospital.hbm.xml</value>
+				<value>/mappings/Immunization.hbm.xml</value>
+				<value>/mappings/Insurance.hbm.xml</value>
+				<value>/mappings/InsuranceType.hbm.xml</value>
+				<value>/mappings/Login.hbm.xml</value>
+				<value>/mappings/Measurement.hbm.xml</value>
+				<value>/mappings/Medication.hbm.xml</value>
+				<value>/mappings/Modality.hbm.xml</value>
+				<value>/mappings/Notes.hbm.xml</value>
+				<value>/mappings/Physician.hbm.xml</value>
+				<value>/mappings/Problem.hbm.xml</value>
+				<value>/mappings/Procedures.hbm.xml</value>
+				<value>/mappings/Results.hbm.xml</value>
+				<value>/mappings/SimpleClinicalNote.hbm.xml</value>
+				<value>/mappings/Vitals.hbm.xml</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="txManager" 
+        class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+
+        <property name="sessionFactory"><ref local="sessionFactory"/></property>
+        <property name="dataSource"><ref local="mainDataSource"/></property>
+    </bean>
+	
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host"><value>smtp.ucr.edu</value></property>
+	</bean>
+	
+	<bean id="velocityEngine" class="org.springframework.ui.velocity.VelocityEngineFactoryBean">
+	    <property name="velocityProperties">
+	        <props>
+	            <prop key="resource.loader">class</prop>
+	            <prop key="class.resource.loader.class">
+            	    org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+        	    </prop>
+	        </props>
+	    </property>
+	</bean>		 
+	<bean id="MenuItemDAO" class="com.hibernate.MenuItemDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="CustomDAO" class="com.hibernate.CustomDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="OrderDAO" class="com.hibernate.OrderDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="FavoritesDAO" class="com.hibernate.FavoritesDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="ItemDAO" class="com.hibernate.ItemDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="UserDAO" class="com.hibernate.UserDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="BuddyListDAO" class="com.hibernate.BuddyListDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="ItemsOrderedDAO" class="com.hibernate.ItemsOrderedDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="MenuDAO" class="com.hibernate.MenuDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="ReservationDAO" class="com.hibernate.ReservationDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean></beans>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/spring-config
+END
+spring-adminServices.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/spring-config/spring-adminServices.xml
+END
+spring-DAO.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/spring-config/spring-DAO.xml
+END
+spring-CCRService.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/spring-config/spring-CCRService.xml
+END
+spring-CCRServiceProxy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/spring-config/spring-CCRServiceProxy.xml
+END
+spring-adminServiceProxy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/spring-config/spring-adminServiceProxy.xml
+END

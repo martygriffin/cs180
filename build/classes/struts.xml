@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.custom.i18n.resources" value="global, messages" />
+	<constant name="struts.action.extension" value="do" />
+	<constant name="struts.objectFactory" value="spring" />
+	<constant name="struts.ui.theme" value="simple" />
+	<constant name="struts.devMode" value="false" />
+
+	<include file="struts-config/default-config.xml" />
+	<!--<include file="struts-config/student-config.xml" />
+	<include file="struts-config/manager-config.xml" />
+	<include file="struts-config/admin-config.xml" />
+	--><package name="basePackage" extends="struts-default-custom">
+		<global-results>
+			<result name="login" type="redirectAction">login.do</result>
+			<result name="logout" type="redirectAction">index.jsp</result>
+		</global-results>
+
+<action name="clear">
+	
+</action>
+		<action name="login" class="edu.ucr.c3.wms.controller.shared.Login">
+			<interceptor-ref name="noLoginStack" />
+<!--			<result name="user" type="redirectAction">default_test</result>-->
+			<result name="user" >/home.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		
+		<action name="default_*" method="{1}"
+			class="edu.ucr.c3.phr.controller.user.Default">
+			<result name="success">index.jsp</result>
+			<result name="refesh" type="redirectAction">default_test</result>
+		</action>
+		
+		<action name="menu_*" method="{1}"
+			class="com.menu.Menu">
+			<result name="add">menu_list.jsp</result>
+			<result name="refesh" type="redirectAction">default_test</result>
+		</action>
+
+
+
+		<action name="logout" class="edu.ucr.c3.wms.controller.shared.Logout">
+			<interceptor-ref name="noLoginStack" />
+			<result>index.jsp</result>
+			
+		</action>
+
+	</package>
+
+</struts>
+
+

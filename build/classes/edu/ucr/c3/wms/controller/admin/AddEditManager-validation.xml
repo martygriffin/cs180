@@ -1,0 +1,47 @@
+<!DOCTYPE validators PUBLIC
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+	<field name="userName">
+        <field-validator type="requiredstring">
+            <message>${getText("username.label")} ${getText("required")}</message>
+        </field-validator>
+        <field-validator type="adminValidator">
+            <message>Please select a different username. A system administrator or manager already has that name.</message>
+        </field-validator>
+    </field> 
+    <field name="password">
+        <field-validator type="requiredstring">
+            <message>${getText("password.label")} ${getText("required")}</message>
+        </field-validator>
+        <field-validator type="passValidator">
+            <message>${getText("password.label")} ${getText("required")}</message>
+        </field-validator>
+    </field>
+    <field name="firstName">
+        <field-validator type="requiredstring">
+            <message>${getText("firstName.label")} ${getText("required")}</message>
+        </field-validator>
+    </field>
+    <field name="lastName">
+        <field-validator type="requiredstring">
+            <message>${getText("lastName.label")} ${getText("required")}</message>
+        </field-validator>
+    </field>
+    <field name="email">
+        <field-validator type="requiredstring">
+            <message>${getText("email.label")} ${getText("required")}</message>
+        </field-validator>
+    </field>
+    <field name="telephone">
+        <field-validator type="requiredstring">
+            <message>${getText("telephone.label")} ${getText("required")}</message>
+        </field-validator>
+    </field>
+    <field name="deptId">
+        <field-validator type="requiredSelect">
+            <message>${getText("dept.label")} ${getText("name.label")} ${getText("requiredSel")}</message>
+        </field-validator>
+    </field>
+</validators>

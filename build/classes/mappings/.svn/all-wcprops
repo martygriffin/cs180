@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings
+END
+Insurance.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Insurance.hbm.xml
+END
+Physician.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Physician.hbm.xml
+END
+CodingSystemsValue.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/CodingSystemsValue.hbm.xml
+END
+Admin.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Admin.hbm.xml
+END
+Notes.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Notes.hbm.xml
+END
+SystemVersion.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/SystemVersion.hbm.xml
+END
+WorkshopReservationRecord.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/WorkshopReservationRecord.hbm.xml
+END
+ManagerAppRole.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/ManagerAppRole.hbm.xml
+END
+WorkshopReservation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/WorkshopReservation.hbm.xml
+END
+Vitals.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Vitals.hbm.xml
+END
+DeptAgreeRel.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/DeptAgreeRel.hbm.xml
+END
+Department.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Department.hbm.xml
+END
+ManagerLogin.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/ManagerLogin.hbm.xml
+END
+Section.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Section.hbm.xml
+END
+ReservationStatus.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/ReservationStatus.hbm.xml
+END
+LabclassReservationRecord.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/LabclassReservationRecord.hbm.xml
+END
+LabclassReservation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/LabclassReservation.hbm.xml
+END
+Manager.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Manager.hbm.xml
+END
+Workshop.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Workshop.hbm.xml
+END
+WeeklySchedule.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/WeeklySchedule.hbm.xml
+END
+WorkshopLog.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/WorkshopLog.hbm.xml
+END
+University.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/University.hbm.xml
+END
+Allergys.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Allergys.hbm.xml
+END
+Labclass.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Labclass.hbm.xml
+END
+Measurement.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Measurement.hbm.xml
+END
+LabclassLog.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/LabclassLog.hbm.xml
+END
+Student.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Student.hbm.xml
+END
+InsuranceType.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/InsuranceType.hbm.xml
+END
+Actors.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Actors.hbm.xml
+END
+Dicom.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Dicom.hbm.xml
+END
+Problem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Problem.hbm.xml
+END
+Results.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Results.hbm.xml
+END
+Files.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Files.hbm.xml
+END
+DeptAdmin.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/DeptAdmin.hbm.xml
+END
+Agreement.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Agreement.hbm.xml
+END
+CodingSystem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/CodingSystem.hbm.xml
+END
+Login.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Login.hbm.xml
+END
+College.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/College.hbm.xml
+END
+Procedures.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Procedures.hbm.xml
+END
+Medication.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Medication.hbm.xml
+END
+SimpleClinicalNote.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/SimpleClinicalNote.hbm.xml
+END
+AcademicTerm.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/AcademicTerm.hbm.xml
+END
+AdminLogin.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/AdminLogin.hbm.xml
+END
+SystemSetting.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/SystemSetting.hbm.xml
+END
+AppType.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/AppType.hbm.xml
+END
+Modality.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Modality.hbm.xml
+END
+Session.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Session.hbm.xml
+END
+Hospital.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Hospital.hbm.xml
+END
+Immunization.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/mappings/Immunization.hbm.xml
+END

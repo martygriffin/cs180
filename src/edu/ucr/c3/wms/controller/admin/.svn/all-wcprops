@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/controller/admin
+END
+ViewDepartment.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/controller/admin/ViewDepartment.java
+END
+AddEditCollege-validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/controller/admin/AddEditCollege-validation.xml
+END
+AddEditManager-validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/controller/admin/AddEditManager-validation.xml
+END
+AddEditUniversity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/controller/admin/AddEditUniversity.java
+END
+AddEditDepartment.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/controller/admin/AddEditDepartment.java
+END
+ViewCollege.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/controller/admin/ViewCollege.java
+END
+ViewManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/controller/admin/ViewManager.java
+END
+EditSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/controller/admin/EditSettings.java
+END
+AddEditUniversity-validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/controller/admin/AddEditUniversity-validation.xml
+END
+AddEditCollege.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/controller/admin/AddEditCollege.java
+END
+AddEditDepartment-validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/controller/admin/AddEditDepartment-validation.xml
+END
+AddEditManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/controller/admin/AddEditManager.java
+END
+ViewUniversity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/controller/admin/ViewUniversity.java
+END

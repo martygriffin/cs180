@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/micromarty_cs180/!svn/ver/128/phr23/etc/mappings
+END
+Social.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/micromarty_cs180/!svn/ver/100/phr23/etc/mappings/Social.hbm.xml
+END
+ItemCustomizations.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/micromarty_cs180/!svn/ver/128/phr23/etc/mappings/ItemCustomizations.hbm.xml
+END
+Custom.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/micromarty_cs180/!svn/ver/89/phr23/etc/mappings/Custom.hbm.xml
+END
+Order.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/micromarty_cs180/!svn/ver/100/phr23/etc/mappings/Order.hbm.xml
+END
+User.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/micromarty_cs180/!svn/ver/100/phr23/etc/mappings/User.hbm.xml
+END
+OrderStatus.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/micromarty_cs180/!svn/ver/22/phr23/etc/mappings/OrderStatus.hbm.xml
+END
+Log.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/micromarty_cs180/!svn/ver/47/phr23/etc/mappings/Log.hbm.xml
+END
+MenuItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/micromarty_cs180/!svn/ver/55/phr23/etc/mappings/MenuItem.hbm.xml
+END
+Feedback.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/micromarty_cs180/!svn/ver/112/phr23/etc/mappings/Feedback.hbm.xml
+END
+ItemsOrdered.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/micromarty_cs180/!svn/ver/102/phr23/etc/mappings/ItemsOrdered.hbm.xml
+END
+Dicom.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/micromarty_cs180/!svn/ver/2/phr23/etc/mappings/Dicom.hbm.xml
+END
+Actors.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/micromarty_cs180/!svn/ver/2/phr23/etc/mappings/Actors.hbm.xml
+END
+Item.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/micromarty_cs180/!svn/ver/100/phr23/etc/mappings/Item.hbm.xml
+END
+Reservation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/micromarty_cs180/!svn/ver/52/phr23/etc/mappings/Reservation.hbm.xml
+END
+Favorites.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/micromarty_cs180/!svn/ver/22/phr23/etc/mappings/Favorites.hbm.xml
+END
+BuddyList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/micromarty_cs180/!svn/ver/22/phr23/etc/mappings/BuddyList.hbm.xml
+END
+Coupon.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/micromarty_cs180/!svn/ver/103/phr23/etc/mappings/Coupon.hbm.xml
+END
+Menu.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/micromarty_cs180/!svn/ver/111/phr23/etc/mappings/Menu.hbm.xml
+END

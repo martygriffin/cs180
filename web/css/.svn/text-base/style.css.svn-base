@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body  {
+	font: 100% Arial, Helvetica, sans-serif;
+   /*	background: #fff url(../images/bodybg.jpg) repeat-x; */
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+h5,h6{
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+.twoColHybLtHdr #container { 
+	width: 80%;  /* this will create a container 80% of the browser width */
+	background: #000;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+/*	border: 1px solid #fff; */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px;
+	border: 1px #FFF solid;
+} 
+.twoColHybLtHdr #header { 
+	color: #FFF;
+	background: #536895 url(../images/header.jpg) bottom;
+	padding: 0 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-bottom: 3px #F90 solid;
+} 
+.twoColHybLtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+/* Tips for sidebar1:
+1. Since we are working in relative units, it's best not to use padding on the sidebar. It will be added to the overall width for standards compliant browsers creating an unknown actual width. 
+2. Since em units are used for the sidebar value, be aware that its width will vary with different default text sizes.
+3. Space between the side of the div and the elements within it can be created by placing a left and right margin on those elements as seen in the ".twoColHybLtHdr #sidebar1 p" rule.
+*/
+.twoColHybLtHdr #sidebar1 {
+	float: left; 
+	width: 12em; /* since this element is floated, a width must be given */
+	background: #f6f6f6; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 5px 0;  top and bottom padding create visual space within this div  */
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	margin-bottom: 5px;
+}
+.twoColHybLtHdr #sidebar1 h3, .twoColHybLtHdr #sidebar1 p {
+	margin-left: 0px;  the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 10px;
+	padding:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.twoColHybLtHdr #sidebar1 p{
+	background-color: #fff;	
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+
+
+/* Tips for mainContent:
+1. The space between the mainContent and sidebar1 is created with the left margin on the mainContent div.  No matter how much content the sidebar1 div contains, the column space will remain. You can remove this left margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends.
+2. Be aware it is possible to cause float drop (the dropping of the non-floated mainContent area below the sidebar) if an element wider than it can contain is placed within the mainContent div. WIth a hybrid layout (percentage-based overall width with em-based sidebar), it may not be possible to calculate the exact width available. If the user's text size is larger than average, you will have a wider sidebar div and thus, less room in the mainContent div. You should be aware of this limitation - especially if the client is adding content with Contribute.
+3. In the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This may help avoid several IE-specific bugs.
+*/
+.twoColHybLtHdr #mainContent { 
+	margin: 0 20px 0 13em; /* the right margin can be given in percentages or pixels. It creates the space down the right side of the page. */
+} 
+.twoColHybLtHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#fff;
+	color: #666;
+} 
+.twoColHybLtHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+/* tabs */
+
+.tab{
+	margin-bottom:2%;	
+	position:relative;
+}
+
+.tab #tabHeader{
+	font-weight:bold;
+	/*
+	border: 1px gray solid;
+	border-bottom:none;
+	*/
+	display:inline-block;
+	background: #f6f6f6;
+	padding:10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px;
+	border: 1px solid #ddd;
+}
+
+.tab #tabAdd{
+		display:inline;
+	position:absolute;
+	right:0;
+	padding:12px 1px 12px 12px;
+}
+
+.tab #tabAdd a:visited{
+	margin:0;
+	padding:12px 5px 12px 12px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px;
+	background:#CCC;
+}
+
+.tab #tabAdd a{
+	margin:0;
+	padding:12px 5px 12px 12px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px;
+	background:#CCC;
+}
+
+.tab #tabAdd a:hover{
+	background-color: #eaf2fa;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px;
+	margin:0;
+	padding:12px 5px 12px 12px;
+}
+
+.tab #tabContent{
+	background: #fff;
+	padding: 5px;
+	position:relative;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+.tab #tabButtons{
+	
+}
+
+.tab #tabNotes{
+	width:90%;
+	
+}
+
+.tab #notesHead{
+	background:#DBDBDB;
+	float:left;
+	padding:1%;
+	margin-right:2%;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: 1px solid #DBDBDB;
+}
+
+.tab #notesContent{
+	background:#fff;
+	width:100%;
+	padding:1%;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: 1px solid #DBDBDB;
+}
+
+textarea{
+	width:90%;	
+}
+
+
+/* logout */
+.logout{
+	padding-left: 20px;
+	padding-top: 10px;
+	width:100%;
+}
+
+
+.logout a:visited, a{
+	color: #009;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+.logout a:hover{
+	text-decoration:underline;
+}
+
+/* hr */
+
+hr{
+	border:1px solid #DBDBDB;
+}
+
+/* li */
+
+ul{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.tab #tabContent li{
+	margin:10px;	
+	list-style-type: none;
+}
+
+.tab #tabContent a:hover{
+	text-decoration: underline;
+}
+
+.tblCol1 td{
+	right: 0;	
+}
+
+.twoColHybLtHdr #sidebar1 li {
+	list-style-type: none;
+	padding: .6em 2em .6em .6em;
+	background-color: #FFF;
+	border-top: 1px solid #DBDBDB;
+}
+
+.twoColHybLtHdr #sidebar1 li:last-child {
+	border-bottom: 1px solid #DBDBDB;
+}
+
+
+.twoColHybLtHdr #sidebar1 li:hover {
+	background-color: #eaf2fa;
+}
+
+
+
+.twoColHybLtHdr #sidebar1 li a, a:visited{
+	color: #2685bb;
+	text-decoration:none;
+	font-weight: bold;
+}
+table.pretty {
+  margin: 1em 1em 1em 2em;
+  background: whitesmoke;
+  border-collapse: collapse;
+}
+table.pretty th, table.pretty td {
+  border: 1px silver solid;
+  padding: 0.2em;
+}
+table.pretty th {
+  background: gainsboro;
+  text-align: left;
+}
+table.pretty caption {
+  margin-left: inherit;
+  margin-right: inherit;
+}
+
+

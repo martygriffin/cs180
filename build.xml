@@ -1,0 +1,298 @@
+<project name="SBR" default="compile" basedir=".">
+    <description>
+        Web application for Struts2.
+    </description>
+
+    <property name="SRC" location="src" />
+    <property name="BUILD" location="build" />
+    <property name="WEB" location="web" />
+    <property name="DIST" location="dist" />
+    <property name="LIB" location="lib" />
+    <property name="DEBUG" value="true" />
+    
+	<!-- 
+		if creating a proxy from apache to the app server, this is the root 
+		directory on apache that will be accessed, should NOT 
+		end with a slash "/" character
+	-->
+	<property name="apacheProxyBase" value="/frs2" />
+	
+	<!--
+		if proxying from apache to the frs server, this should be the target 
+		url to proxy too, this SHOULD end with a slash "/" character
+	
+	<property name="proxyURL" value="https://c3svr1.ucr.edu:4443/frs2/"/>
+	-->
+	
+    <loadproperties srcFile="accountSettings.properties"/>    
+    
+	<!-- Configure properties to access the Manager application -->
+	<property name="url"      value="${tomcatManagerURL}"/>
+	<property name="username" value="${tomcatUser}"/>
+	<property name="password" value="${tomcatPassword}"/>	
+	<property name="contextName" value="${tomcatContext}"/>    
+	
+	<!-- for testing with tomcat -->
+	<property name="TCAT_TEST_DIR" value="${tomcatTestDir}"/>
+
+    
+   	<path id="class.path">
+   		<fileset dir="${LIB}" includes="*.jar" />
+   		<!--<fileset dir="${TCAT_TEST_DIR}/shared/lib" includes="*.jar" />-->
+   	</path>
+   	
+    <target name="init">
+        <mkdir dir="${BUILD}/classes" />
+        <mkdir dir="${BUILD}/test-classes" />    	
+    </target>
+
+    <target name="compile" depends="init">
+    
+        <javac srcdir="${SRC}" 
+        		destdir="${BUILD}/classes" 
+        		classpathref="class.path" 
+        		compiler="modern"
+        		debug="${DEBUG}" />		
+    </target>
+    
+    <target name="configSetup" depends="compile">
+   		<copy todir="${BUILD}/classes">
+			<fileset file="etc/log4j.properties"/>
+			<fileset dir="etc">
+				<include name="mappings/"/>
+				<include name="mailTemplates/"/>
+				<include name="struts-config/"/>
+				<include name="spring-config/"/>
+				<include name="*.xml"/>
+				<include name="*.properties"/>
+			</fileset>					
+			<fileset dir="${SRC}">
+				<include name="**/*.properties"/>		
+				<include name="**/*.tld"/>
+				<include name="**/*.xml"/>		
+			</fileset>
+			<fileset dir="${SRC}">
+				<include name="template/" />
+			</fileset>
+		</copy>
+		
+		<replace file="${BUILD}/classes/spring.xml" 
+				token="@@dbUser@@" 
+				value="${dbUser}"/>
+				
+		<replace file="${BUILD}/classes/spring.xml" 
+				token="@@dbPassword@@" 
+				value="${dbPassword}"/>
+				
+		<replace file="${BUILD}/classes/spring.xml" 
+				token="@@dbHost@@" 
+				value="${dbHost}"/>
+				
+		<replace file="${BUILD}/classes/spring.xml" 
+				token="@@dbPort@@" 
+				value="${dbPort}"/>				
+				
+		<replace file="${BUILD}/classes/spring.xml" 
+				token="@@dbDatabase@@" 
+				value="${dbDatabase}"/>    
+    </target>
+
+    <target name="clean" depends="init">
+        <delete dir="${BUILD}" />
+        <!-- <delete dir="${DIST}" /> -->
+    </target>
+    
+    
+	<target name="test" depends="compile,configSetup">
+	    <junit filtertrace="on" haltonfailure="on" haltonerror="on">
+	        <classpath>
+	        	<path refid="class.path"/>
+	            <pathelement path="${BUILD}/classes" />
+	            <pathelement path="${BUILD}/test-classes" />	        	
+	        </classpath>
+	        <formatter type="plain" usefile="false" />
+            <test name="example.business.AdvisorTest"/>
+	    </junit>
+	</target>
+	
+	
+	<target name="dist" depends="compile,configSetup">
+		<mkdir dir="${DIST}"/>
+				
+		<war destfile="${DIST}/${contextName}.war" webxml="web/WEB-INF/web.xml">
+		
+			<lib dir="${LIB}">
+				<exclude name="servlet-api**"/>
+				<exclude name="jsp-api**"/>
+				<exclude name="junit**"/>
+        		<exclude name="C3Testing**"/>
+			</lib>
+			
+			<classes dir="${BUILD}/classes"/>
+			
+			<webinf dir="${WEB}/WEB-INF">
+				<exclude name="web.xml"/>
+			</webinf>
+			
+			<zipfileset dir="${BUILD}/classes/edu/ucr/c3/wms/helper/tags" 
+			        			includes="*.tld" prefix="WEB-INF"/>
+			
+			<fileset dir="${WEB}">
+				<exclude name="WEB-INF/"/>
+				<exclude name="*.shtml"/>				
+				<exclude name="Templates/**"/>				
+			</fileset>
+		</war>
+	</target>
+	
+	<target name="generateProxyConfig" depends="dist">
+		<mkdir dir="${DIST}/apache"/>
+		
+		<copy file="etc/apacheProxyConfig/htaccess"
+				tofile="${DIST}/apache/.htaccess"/>
+		
+		<copy todir="${DIST}/apache/error">
+			<fileset dir="${WEB}">
+				<include name="unavailable.shtml"/>
+			</fileset>
+		</copy>
+		
+		<copy todir="${DIST}/apache/error/images">
+			<fileset dir="${WEB}/images"/>
+		</copy>		
+		
+		<copy todir="${DIST}/apache/error">
+			<fileset dir="${WEB}">
+				<include name="*.css"/>
+			</fileset>
+		</copy>				
+	
+		<replace file="${DIST}/apache/.htaccess" 
+				token="@@apacheProxyBase@@" 
+				value="${apacheProxyBase}"/>
+		
+		<replace file="${DIST}/apache/.htaccess" 
+				token="@@proxyURL@@" 
+				value="${proxyURL}"/>						
+		
+		<replace dir="${DIST}/apache/error" 
+				token="@@apacheProxyBase@@" 
+				value="${apacheProxyBase}"/>
+		
+		
+	</target>
+    	
+ <!--
+  We may not need this portion for now because we use DeZign software to generate the
+  SQL DDLs for ManagerDB, AdvisorDB and SurveyDB. If we need to add index for the
+  frequently searchable field(s), we may look for this solution for future performace
+  tests. This technology was used in the old projects in C3 
+  
+	<target name="genSchema" depends="compile, configSetup">
+		<taskdef name="schemaexport"
+				classname="net.sf.hibernate.tool.hbm2ddl.SchemaExportTask" >        		
+        	<classpath>
+        		<path refid="class.path"/>        	
+	        	<pathelement location="${BUILD}/classes" />
+        	</classpath>        	
+        </taskdef>
+    
+    	<schemaexport 
+    			config="etc/genSchema.cfg.xml"
+		        quiet="no"
+		        text="yes"
+		        drop="no"
+		        delimiter=";"
+		        output="etc/sql/app4grad.sql">
+
+    	</schemaexport>
+	</target> 
+	
+	<target name="updateWebApp" depends="compile,configSetup">
+   		<copy todir="${TCAT_TEST_DIR}/WEB-INF/classes">	
+			<fileset dir="${BUILD}/classes"/>
+		</copy>
+		
+   		<copy todir="${TCAT_TEST_DIR}/WEB-INF">	
+			<fileset dir="${WEB}/WEB-INF">
+				<include name="**/*.xml"/>
+			</fileset>		
+		</copy>		
+		
+		<copy todir="${TCAT_TEST_DIR}/WEB-INF">	
+			<fileset dir="${BUILD}/classes/edu/ucr/c3/wms/helper/calendar">
+				<include name="*.tld"/>
+			</fileset>		
+		</copy>
+	</target>   	
+ -->
+	<target name="updateJSP" depends="">
+		<copy todir="C:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/${contextName}/">	
+				<fileset dir="C:/Documents and Settings/sdenn002/Desktop/workspace/wms/web"/>
+			</copy>
+	</target>
+	
+	<target name="updateJSPhome" depends="">
+			<copy todir="C:/Users/Scott/Downloads/apache-tomcat-6.0.29/webapps/${contextName}/">	
+				<fileset dir="C:/Users/Scott/Workspaces/MyEclipse 8.6/wms/web"/>
+			</copy>
+	</target>
+	
+	<!-- Configure the custom Ant tasks for the Manager application -->
+	<taskdef name="deploy"    classname="org.apache.catalina.ant.DeployTask"/>	  		
+	<taskdef name="list"      classname="org.apache.catalina.ant.ListTask"/>
+	<taskdef name="reload"    classname="org.apache.catalina.ant.ReloadTask"/>
+	<taskdef name="resources" classname="org.apache.catalina.ant.ResourcesTask"/>
+	<taskdef name="roles"     classname="org.apache.catalina.ant.RolesTask"/>
+	<taskdef name="start"     classname="org.apache.catalina.ant.StartTask"/>
+	<taskdef name="stop"      classname="org.apache.catalina.ant.StopTask"/>
+	<taskdef name="undeploy"  classname="org.apache.catalina.ant.UndeployTask"/>
+
+
+	<target name="deploy" description="Install web application"
+          depends="dist">
+    	<deploy url="${url}" username="${username}" password="${password}"
+            path="/${contextName}" war="${DIST}/${contextName}.war"/>
+	</target>		
+  
+	<target name="reload" description="Reload web application"
+          depends="compile">
+		<reload  url="${url}" username="${username}" password="${password}"
+            path="/${contextName}"/>
+	</target>
+
+	<target name="undeploy" description="Remove web application">
+    	<undeploy url="${url}" username="${username}" password="${password}"
+            path="/${contextName}"/>
+	</target>  	
+  	  
+  
+	<target name="redeploy" description="Redeploy a web application" 
+  		depends="undeploy,deploy"/>
+    
+	<target name="javadoc" depends="dist">
+
+			<javadoc 
+				access="public" 
+				additionalparam="-noqualifier all" 
+				author="true" 
+				classpath="class.path" 
+				destdir="doc" 
+				nodeprecated="false" 
+				nodeprecatedlist="false" 
+				noindex="false" 
+				nonavbar="false" 
+				notree="false" 
+				source="1.3" 
+				sourcepath="src/java" 
+				splitindex="true" 
+				use="true" 
+				link="http://java.sun.com/j2se/1.4.2/docs/api/"
+				version="true">
+				
+				<fileset dir="src/java">
+					<include name="edu/ucr/**/*.java"/>
+				</fileset>
+			</javadoc>
+	</target>
+</project>

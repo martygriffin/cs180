@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain
+END
+Medication.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Medication.class
+END
+SimpleClinicalNote.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/SimpleClinicalNote.class
+END
+Modality.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Modality.class
+END
+Allergys.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Allergys.class
+END
+Immunization.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Immunization.class
+END
+Hospital.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Hospital.class
+END
+Measurement.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Measurement.class
+END
+Physician.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Physician.class
+END
+Insurance.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Insurance.class
+END
+CodingSystemsValue.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/CodingSystemsValue.class
+END
+Notes.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Notes.class
+END
+InsuranceType.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/InsuranceType.class
+END
+Dicom.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Dicom.class
+END
+Actors.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Actors.class
+END
+Problem.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Problem.class
+END
+Results.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Results.class
+END
+Vitals.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Vitals.class
+END
+Files.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Files.class
+END
+Department.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Department.class
+END
+CodingSystem.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/CodingSystem.class
+END
+Login.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Login.class
+END
+Procedures.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/phr/domain/Procedures.class
+END

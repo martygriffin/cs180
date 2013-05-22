@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id="CodingSystemsValueDAO"
+		class="edu.ucr.c3.phr.dao.CodingSystemsValueDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="SimpleClinicalNoteDAO"
+		class="edu.ucr.c3.phr.dao.SimpleClinicalNoteDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="HospitalDAO" class="edu.ucr.c3.phr.dao.HospitalDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="ImmunizationDAO"
+		class="edu.ucr.c3.phr.dao.ImmunizationDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="DepartmentDAO" class="edu.ucr.c3.phr.dao.DepartmentDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="InsuranceDAO" class="edu.ucr.c3.phr.dao.InsuranceDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="LoginDAO" class="edu.ucr.c3.phr.dao.LoginDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="ActorsDAO" class="edu.ucr.c3.phr.dao.ActorsDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="PhysicianDAO" class="edu.ucr.c3.phr.dao.PhysicianDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="NotesDAO" class="edu.ucr.c3.phr.dao.NotesDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="DicomDAO" class="edu.ucr.c3.phr.dao.DicomDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="AllergysDAO" class="edu.ucr.c3.phr.dao.AllergysDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="CodingSystemDAO"
+		class="edu.ucr.c3.phr.dao.CodingSystemDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="ResultsDAO" class="edu.ucr.c3.phr.dao.ResultsDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="VitalsDAO" class="edu.ucr.c3.phr.dao.VitalsDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="ModalityDAO" class="edu.ucr.c3.phr.dao.ModalityDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="MedicationDAO" class="edu.ucr.c3.phr.dao.MedicationDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="InsuranceTypeDAO"
+		class="edu.ucr.c3.phr.dao.InsuranceTypeDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="ProblemDAO" class="edu.ucr.c3.phr.dao.ProblemDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="FilesDAO" class="edu.ucr.c3.phr.dao.FilesDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="MeasurementDAO"
+		class="edu.ucr.c3.phr.dao.MeasurementDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="ProceduresDAO" class="edu.ucr.c3.phr.dao.ProceduresDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+</beans>

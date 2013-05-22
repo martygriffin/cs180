@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="adminLevelSvcTarget" class="edu.ucr.c3.wms.business.admin.imp.AdminLevelServiceImp">
+<!--		<property name="UniversityDAO"><ref bean="UniversityDAO"/></property>-->
+<!--		<property name="CollegeDAO"><ref bean="CollegeDAO"/></property>-->
+<!--		<property name="DepartmentDAO"><ref bean="DepartmentDAO"/></property>-->
+<!--		<property name="SystemSettingDAO"><ref bean="SystemSettingDAO"/></property>-->
+	</bean>
+	
+	<bean id="userSvcTarget" class="edu.ucr.c3.wms.business.admin.imp.UserServiceImp">
+<!--		<property name="AdminDAO"><ref bean="AdminDAO"/></property>-->
+<!--		<property name="ManagerDAO"><ref bean="ManagerDAO"/></property>-->
+<!--		<property name="StudentDAO"><ref bean="StudentDAO"/></property>-->
+		<property name="LoginDAO"><ref bean="LoginDAO"/></property>
+		<property name="ActorsDAO"><ref bean="ActorsDAO"/></property>
+		
+	</bean>
+	
+	<bean id="inactivationSvcTarget" class="edu.ucr.c3.wms.business.admin.imp.InactivationServiceImp">
+<!--		<property name="UniversityDAO"><ref bean="UniversityDAO"/></property>-->
+<!--		<property name="CollegeDAO"><ref bean="CollegeDAO"/></property>-->
+<!--		<property name="DepartmentDAO"><ref bean="DepartmentDAO"/></property>-->
+<!--		<property name="ManagerDAO"><ref bean="ManagerDAO"/></property>-->
+<!--		<property name="LabclassDAO"><ref bean="LabclassDAO"/></property>-->
+<!--		<property name="LabclassLogDAO"><ref bean="LabclassLogDAO"/></property>-->
+<!--		<property name="LabclassReservationDAO"><ref bean="LabclassReservationDAO"/></property>-->
+<!--		<property name="LabclassReservationRecordDAO"><ref bean="LabclassReservationRecordDAO"/></property>-->
+<!--		<property name="SectionDAO"><ref bean="SectionDAO"/></property>-->
+<!--		<property name="WorkshopDAO"><ref bean="WorkshopDAO"/></property>-->
+<!--		<property name="WorkshopLogDAO"><ref bean="WorkshopLogDAO"/></property>-->
+<!--		<property name="WorkshopReservationDAO"><ref bean="WorkshopReservationDAO"/></property>-->
+<!--		<property name="WorkshopReservationRecordDAO"><ref bean="WorkshopReservationRecordDAO"/></property>-->
+<!--		<property name="SessionDAO"><ref bean="SessionDAO"/></property>-->
+<!--		<property name="ReservationStatusDAO"><ref bean="ReservationStatusDAO"/></property>-->
+<!--		<property name="mailSender"><ref bean="mailSender"/></property>-->
+<!--		<property name="velocityEngine"><ref bean="velocityEngine"/></property>-->
+	</bean>
+	
+</beans>

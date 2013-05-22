@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate
+END
+SystemSettingDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/SystemSettingDAO.class
+END
+AppTypeDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/AppTypeDAO.class
+END
+SessionDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/SessionDAO.class
+END
+LabclassDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/LabclassDAO.class
+END
+StudentDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/StudentDAO.class
+END
+LabclassLogDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/LabclassLogDAO.class
+END
+AdminDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/AdminDAO.class
+END
+SystemVersionDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/SystemVersionDAO.class
+END
+BudgetRequestedDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/BudgetRequestedDAO.class
+END
+WorkshopReservationRecordDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/WorkshopReservationRecordDAO.class
+END
+ManagerAppRoleDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/ManagerAppRoleDAO.class
+END
+WorkshopReservationDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/WorkshopReservationDAO.class
+END
+ManagerLoginDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/ManagerLoginDAO.class
+END
+DepartmentDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/DepartmentDAO.class
+END
+DeptAgreeRelDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/DeptAgreeRelDAO.class
+END
+SectionDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/SectionDAO.class
+END
+ReservationStatusDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/ReservationStatusDAO.class
+END
+DeptAdminDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/DeptAdminDAO.class
+END
+LabclassReservationRecordDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/LabclassReservationRecordDAO.class
+END
+LabclassReservationDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/LabclassReservationDAO.class
+END
+AgreementDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/AgreementDAO.class
+END
+ManagerDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/ManagerDAO.class
+END
+CollegeDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/CollegeDAO.class
+END
+WorkshopDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/WorkshopDAO.class
+END
+WeeklyScheduleDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/WeeklyScheduleDAO.class
+END
+WorkshopLogDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/WorkshopLogDAO.class
+END
+AcademicTermDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/AcademicTermDAO.class
+END
+UniversityDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/UniversityDAO.class
+END
+AdminLoginDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/dao/hibernate/AdminLoginDAO.class
+END

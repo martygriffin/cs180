@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="CcrSvcTarget" class="edu.ucr.c3.business.ccr.imp.CCRServiceImp">
+		<property name="AllergysDAO"><ref bean="AllergysDAO"/></property>
+		<property name="CodingSystemDAO"><ref bean="CodingSystemDAO"/></property>
+		<property name="CodingSystemsValueDAO"><ref bean="CodingSystemsValueDAO"/></property>
+		<property name="DepartmentDAO"><ref bean="DepartmentDAO"/></property>
+		<property name="DicomDAO"><ref bean="DicomDAO"/></property>
+		<property name="FilesDAO"><ref bean="FilesDAO"/></property>
+		<property name="HospitalDAO"><ref bean="HospitalDAO"/></property>
+		<property name="InsuranceDAO"><ref bean="InsuranceDAO"/></property>
+		<property name="ImmunizationDAO"><ref bean="ImmunizationDAO"/></property>
+		<property name="MeasurementDAO"><ref bean="MeasurementDAO"/></property>
+		<property name="MedicationDAO"><ref bean="MedicationDAO"/></property>
+		<property name="ModalityDAO"><ref bean="ModalityDAO"/></property>
+		<property name="NotesDAO"><ref bean="NotesDAO"/></property>
+		<property name="PhysicianDAO"><ref bean="PhysicianDAO"/></property>
+		<property name="ProblemDAO"><ref bean="ProblemDAO"/></property>
+		<property name="ProceduresDAO"><ref bean="ProceduresDAO"/></property>
+		<property name="ResultsDAO"><ref bean="ResultsDAO"/></property>
+		<property name="SimpleClinicalNoteDAO"><ref bean="SimpleClinicalNoteDAO"/></property>
+		<property name="VitalsDAO"><ref bean="VitalsDAO"/></property>
+		
+		
+	</bean>
+	
+
+	
+</beans>

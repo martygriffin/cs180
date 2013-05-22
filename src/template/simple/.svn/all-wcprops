@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple
+END
+controlfooter.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/controlfooter.ftl
+END
+submit.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/submit.ftl
+END
+inputtransferselect.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/inputtransferselect.ftl
+END
+submit-close.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/submit-close.ftl
+END
+dynamic-attributes.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/dynamic-attributes.ftl
+END
+combobox.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/combobox.ftl
+END
+doubleselect.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/doubleselect.ftl
+END
+updownselect.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/updownselect.ftl
+END
+textarea.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/textarea.ftl
+END
+optiontransferselect.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/optiontransferselect.ftl
+END
+file.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/file.ftl
+END
+token.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/token.ftl
+END
+a.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/a.ftl
+END
+div.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/div.ftl
+END
+reset.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/reset.ftl
+END
+checkboxlist.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/checkboxlist.ftl
+END
+a-close.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/a-close.ftl
+END
+div-close.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/div-close.ftl
+END
+table.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/table.ftl
+END
+css.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/css.ftl
+END
+controlheader.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/controlheader.ftl
+END
+fielderror.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/fielderror.ftl
+END
+head.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/head.ftl
+END
+password.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/password.ftl
+END
+form.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/form.ftl
+END
+scripting-events.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/scripting-events.ftl
+END
+form-close.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/form-close.ftl
+END
+common-attributes.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/common-attributes.ftl
+END
+label.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/label.ftl
+END
+optgroup.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/optgroup.ftl
+END
+select.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/select.ftl
+END
+actionmessage.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/actionmessage.ftl
+END
+text.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/text.ftl
+END
+debug.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/debug.ftl
+END
+checkbox.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/checkbox.ftl
+END
+actionerror.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/actionerror.ftl
+END
+form-common.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/form-common.ftl
+END
+hidden.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/hidden.ftl
+END
+radiomap.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/radiomap.ftl
+END
+empty.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/template/simple/empty.ftl
+END

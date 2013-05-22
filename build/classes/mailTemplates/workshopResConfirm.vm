@@ -1,0 +1,6 @@
+Dear $student,
+Your reservation for the $session session of the $workshop workshop has been successfully added.
+Session details:
+Date and time: $when
+Location: $location
+Your confirmation number is $conf.

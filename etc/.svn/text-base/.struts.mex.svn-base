@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="basePackage" location="306,165" size="280,420">
+    <action name="login" location="65,71" size="150,83">
+      <result name="admin">
+        <resourceEdge source="admin" routing="0" target="admin_welcome.jsp" />
+      </result>
+      <result name="manager">
+        <resourceEdge source="manager" routing="0" target="manager_welcome.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="manager_login.jsp" />
+      </result>
+    </action>
+    <action name="excelDownload" location="65,232" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="logout" location="65,337" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="manager_login.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="admin_welcome.jsp" path="/admin/admin_welcome.jsp" location="640,220" size="150,55" />
+  <webResource name="manager_welcome.jsp" path="/manager/manager_welcome.jsp" location="67,220" size="150,55" />
+  <webResource name="manager_login.jsp" path="/manager_login.jsp" location="384,10" size="150,55" />
+  <include file="struts-config/default-config.xml" location="15,675" size="150,30" />
+  <include file="struts-config/student-config.xml" location="294,675" size="150,30" />
+  <include file="struts-config/manager-config.xml" location="10,780" size="150,30" />
+  <include file="struts-config/admin-config.xml" location="297,780" size="150,30" />
+</Struts2Diagram>
+

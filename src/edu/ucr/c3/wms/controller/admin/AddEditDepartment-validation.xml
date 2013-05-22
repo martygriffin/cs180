@@ -1,0 +1,31 @@
+<!DOCTYPE validators PUBLIC
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+	<field name="name">
+        <field-validator type="requiredstring">
+            <message>${getText("dept.label")} ${getText("name.label")} ${getText("required")}</message>
+        </field-validator>
+    </field> 
+	<field name="servName">
+        <field-validator type="requiredstring">
+            <message>${getText("serv.label")} ${getText("name.label")} ${getText("required")}</message>
+        </field-validator>
+    </field> 
+    <field name="url">
+        <field-validator type="requiredstring">
+            <message>${getText("url.label")} ${getText("required")}</message>
+        </field-validator>
+    </field>
+    <field name="colId">
+        <field-validator type="requiredSelect">
+            <message>${getText("coll.label")} ${getText("name.label")} ${getText("requiredSel")}</message>
+        </field-validator>
+    </field>
+    <field name="authKey">
+        <field-validator type="requiredstring">
+            <message>${getText("authKey.label")} ${getText("required")}</message>
+        </field-validator>
+    </field>
+</validators>

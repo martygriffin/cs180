@@ -1,0 +1,6 @@
+Dear $student,
+Your reservation for the $section section of the $labclass lab class has been successfully added.
+Section details:
+Date and time: $when
+Location: $location
+Your confirmation number is $conf.

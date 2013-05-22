@@ -1,0 +1,5 @@
+Dear $student,
+The date or time of the $section section of the $labclass lab class has changed.
+New section details:
+Date and time: $when
+Location: $location

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/business/reservation
+END
+LookupService.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/business/reservation/LookupService.java
+END
+WorkshopService.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/business/reservation/WorkshopService.java
+END
+LabclassService.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/micromarty_cs180/!svn/ver/2/phr23/src/edu/ucr/c3/wms/business/reservation/LabclassService.java
+END

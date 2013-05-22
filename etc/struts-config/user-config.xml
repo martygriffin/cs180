@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+
+
+	<package name="user" namespace="/" extends="basePackage">
+		<default-action-ref name="index" />
+
+		<action name="index" class="edu.ucr.c3.phr.user.test">
+			<result>/index.jsp</result>
+		</action>
+<!---->
+<!--		<action name="university_*" method="{1}"-->
+<!--			class="edu.ucr.c3.wms.controller.admin.AddEditUniversity">-->
+<!--			<result name="input">/admin/university_form.jsp</result>-->
+<!--			<result type="redirectAction">/admin/view_universities</result>-->
+<!--		</action>-->
+<!---->
+<!--		<action name="view_universities" class="edu.ucr.c3.wms.controller.admin.ViewUniversity">-->
+<!--			<result>/admin/university_view.jsp</result>-->
+<!--		</action>-->
+<!---->
+<!--		<action name="college_*" method="{1}"-->
+<!--			class="edu.ucr.c3.wms.controller.admin.AddEditCollege">-->
+<!--			<result name="input">/admin/college_form.jsp</result>-->
+<!--			<result type="redirectAction">/admin/view_colleges</result>-->
+<!--		</action>-->
+<!---->
+<!--		<action name="view_colleges" class="edu.ucr.c3.wms.controller.admin.ViewCollege">-->
+<!--			<result>/admin/college_view.jsp</result>-->
+<!--		</action>-->
+<!---->
+<!--		<action name="department_*" method="{1}"-->
+<!--			class="edu.ucr.c3.wms.controller.admin.AddEditDepartment">-->
+<!--			<result name="input">/admin/department_form.jsp</result>-->
+<!--			<result type="redirectAction">/admin/view_departments</result>-->
+<!--		</action>-->
+<!---->
+<!--		<action name="view_departments" class="edu.ucr.c3.wms.controller.admin.ViewDepartment">-->
+<!--			<result>/admin/department_view.jsp</result>-->
+<!--		</action>-->
+<!---->
+<!--		<action name="manager_*" method="{1}"-->
+<!--			class="edu.ucr.c3.wms.controller.admin.AddEditManager">-->
+<!--			<result name="input">/admin/manager_form.jsp</result>-->
+<!--			<result type="redirectAction">/admin/view_managers</result>-->
+<!--		</action>-->
+<!---->
+<!--		<action name="view_managers" class="edu.ucr.c3.wms.controller.admin.ViewManager">-->
+<!--			<result>/admin/manager_view.jsp</result>-->
+<!--		</action>-->
+<!---->
+<!--		<action name="settings_*" method="{1}"-->
+<!--			class="edu.ucr.c3.wms.controller.admin.EditSettings">-->
+<!--			<result name="input">/admin/settings_form.jsp</result>-->
+<!--			<result type="redirectAction">/admin/settings_input</result>-->
+<!--		</action>-->
+<!---->
+	</package>
+</struts>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/forms
+END
+CollegeForm.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/forms/CollegeForm.class
+END
+ManagerForm.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/forms/ManagerForm.class
+END
+SettingsForm.class
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/forms/SettingsForm.class
+END
+UniversityForm.class
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/forms/UniversityForm.class
+END
+DepartmentForm.class
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/forms/DepartmentForm.class
+END
+LoginForm.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/micromarty_cs180/!svn/ver/2/phr23/build/classes/edu/ucr/c3/wms/controller/admin/forms/LoginForm.class
+END

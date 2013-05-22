@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC
+     "-//OpenSymphony Group//XWork Validator Config 1.0//EN"
+     "http://www.opensymphony.com/xwork/xwork-validator-config-1.0.dtd">
+<validators>
+	<validator name="requiredSelect" class="edu.ucr.c3.wms.helper.validators.SelectValidator"/>
+	<validator name="yearValidator" class="edu.ucr.c3.wms.helper.validators.YearValidator"/>
+	<validator name="endDateValidator" class="edu.ucr.c3.wms.helper.validators.EndDateValidator"/>
+	<validator name="dateValidator" class="edu.ucr.c3.wms.helper.validators.DateValidator"/>
+	<validator name="adminValidator" class="edu.ucr.c3.wms.helper.validators.AdminValidator"/>
+	<validator name="passValidator" class="edu.ucr.c3.wms.helper.validators.PassValidator"/>
+	<validator name="sidValidator" class="edu.ucr.c3.wms.helper.validators.StudentValidator"/>
+	<validator name="netIDValidator" class="edu.ucr.c3.wms.helper.validators.StudentValidator2"/>
+	<validator name="sectionValidator" class="edu.ucr.c3.wms.helper.validators.SectionValidator"/>
+</validators>
